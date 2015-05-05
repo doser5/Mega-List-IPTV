@@ -685,4 +685,29 @@
 <link>http://link.theplatform.com/s/dtjsEC/chjdYJxKb44V?manifest=m3u&feed=History%20Live%20Stream%20Feed</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/3/32/History_HD_Logo.svg/2000px-History_HD_Logo.svg.png</thumbnail>
 
+<item>
+<title>[COLOR white]Hamilton CHCH HD[/COLOR]</title>
+<link>rtmp://54.85.197.21:1935/live/news live=1 timeout=15</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/6/61/CHCH2010.svg/210px-CHCH2010.svg.png</thumbnail>
+
+<item>
+<title>[COLOR white]Kiss TV[/COLOR]</title>
+<link>rtmp://tst.es.flash.glb.ipercast.net/tst.es-live/live</link>
+<thumbnail>http://www.livestream.com/filestore/logos/3b2fdfc1-ca40-52ca-d7b9-dde430b43d96-banner.jpg</thumbnail>
+
+<item>
+<title>[COLOR white]Halmark Channel[/COLOR]</title>
+<link>http://50.7.69.186:1935/edge/_definst_/v4ynnryunsoxzbq/playlist.m3u8?wowzasessionid=1419874236</link>
+<thumbnail>http://seritastevens.org/wp-content/uploads/2014/02/Hallmark-Channel-489x276.jpg</thumbnail>
+
+<item>
+<title>[COLOR white]MBC Action English/COLOR]</title>
+<link>http://63.237.48.23/ios/MBC_ACTION/MBC_ACTION.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/mm/mbc_ae_action.png</thumbnail>
+
+<item>
+<title>[COLOR white]MBC Max Movies/COLOR]</title>
+<link>http://63.237.48.23/ios/MBC_MAX/MBC_MAX.m3u8</link>
+<thumbnail>http://4.bp.blogspot.com/-9MFYPtap7U0/U90uGxouH0I/AAAAAAAABiU/ukA6JrUSFbM/s1600/mbc+max+live.png</thumbnail>
+
 
