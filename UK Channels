@@ -4,6 +4,21 @@
 </item>
 
 <item>
+<title>[COLOR white]Sky Movies Select[/COLOR]</title>
+<link>http://188.227.189.18:8082/TV4254</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/ss/sky_uk_movies_select_hd.png</thumbnail>
+
+<item>
+<title>[COLOR white]Sky Movies Premiere[/COLOR]</title>
+<link>http://188.227.189.18:8082/TV4252</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/ss/sky_uk_movies_premiere_hd.png</thumbnail>
+
+<item>
+<title>[COLOR white]Sky Movies Premiere+[/COLOR]</title>
+<link>http://188.227.189.18:8082/TV4251</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/ss/sky_uk_movies_premiere_hd.png</thumbnail>
+
+<item>
 <title>[COLOR white]Sky Movies Action & Adventure[/COLOR]</title>
 <link>http://188.227.189.18:8082/TV4245</link>
 <thumbnail>http://img3.wikia.nocookie.net/__cb20111118190047/logopedia/images/0/07/Sky-Movies-ActionAdventure.png</thumbnail>
@@ -17,3 +32,4 @@
 <title>[COLOR white]Sky Movies Disney[/COLOR]</title>
 <link>http://188.227.189.18:8082/TV4247</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/ss/sky_uk_movies_disney_hd.png</thumbnail>
+
