@@ -74,13 +74,5 @@
 </channel>
   </channels>
   
-  <channel>
-            <name>[COLOR skyblue]M[/COLOR][COLOR white]ega USTV Channels[/COLOR]</name>
-  <thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-   <externallink>plugin://plugin.video.ustvnow/?mode=live</externallink>
-<info>[COLOR white]Updated 03/05/2015 @ 00.45am[/COLOR]</info>
-</channel>
-  </channels>
+
   
