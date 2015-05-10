@@ -5,7 +5,7 @@
 <channels>
 
 <channel>
-      <name>[COLOR black]             |-----Mega IPTV List-----|      [/COLOR]</name>
+      <name>[COLOR white]             |-----Mega IPTV List-----|      [/COLOR]</name>
   <thumbnail>http://i.ytimg.com/vi/UOkLBhUE8T0/hqdefault.jpg</thumbnail>
 <fanart>http://connertlowrymemorialfund.com/wp-content/uploads/flag-background.png</fanart>
 <link>http://mobile.desistreams.tv/DesiStreams/index2.php?tag=get_all_channel</link>
@@ -25,11 +25,11 @@
   </channels>
   
   <channel>
-      <name>[COLOR red]-[/COLOR][COLOR white]--------------Via Paypal--------------- [/COLOR]</name>
-  <thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/HD-TV_Logo.svg/800px-HD-TV_Logo.svg.png</thumbnail>
-<fanart>http://p1.pichost.me/i/51/1748495.jpg</fanart>
+            <name>[COLOR lightred]   ---------------Via Paypal---------------  [/COLOR]</name>
+  <thumbnail>http://freegametools.com/wp-content/uploads/2014/08/PayPal-Logo-Wallpaper.png</thumbnail>
+<fanart>http://www.hrinyourpocket.com/wp-content/uploads/2013/02/3541-blue-gradient-1920x1200-abstract-wallpaper.jpg</fanart>
 <link>http://ignoreme</link>
-   <externallink></externallink>
+   <externallink>https://raw.githubusercontent.com/doser5/Mega-List-IPTV/master/UK%20Channels</externallink>
 <info>[COLOR white]Updated 03/05/2015 @ 00.45am[/COLOR]</info>
 </channel>
   </channels>
