@@ -4,9 +4,9 @@
 </item>
 
 <item>
-<title>[COLOR white]Sky Movies Select[/COLOR]</title>
-<link>http://188.227.189.18:8082/TV4254</link>
-<thumbnail>http://www.lyngsat-logo.com/hires/ss/sky_uk_movies_select_hd.png</thumbnail>
+<title>[COLOR sliver]      Sky Pack: Update 5/8/2015--[/COLOR]</title>
+<link>http://200.76.77.237/LIVE/H01/CANAL373/PROFILE03.m3u8?</link>
+<thumbnail>http://www.sky.com/shop/export/sites/www.sky.com/shop/__EPG/EPGImages/ComedyHD.png_680260285.png</thumbnail>
 
 <item>
 <title>[COLOR white]Sky Movies Premiere[/COLOR]</title>
@@ -14,12 +14,12 @@
 <thumbnail>http://www.lyngsat-logo.com/hires/ss/sky_uk_movies_premiere_hd.png</thumbnail>
 
 <item>
-<title>[COLOR white]Sky Movies Comedy[/COLOR]</title>
-<link>http://188.227.189.18:8082/TV4246</link>
-<thumbnail>http://www.lyngsat-logo.com/hires/ss/sky_uk_movies_comedy.png</thumbnail>
+<title>[COLOR white]Sky Movies Premiere +1[/COLOR]</title>
+<link>http://bit.do/4tFk</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/ss/sky_uk_movies_premiere_hd.png</thumbnail>
 
 <item>
-<title>[COLOR white]Sky Movies Disney[/COLOR]</title>
+<title>[COLOR white]Sky Movies Disney b[/COLOR]</title>
 <link>http://188.227.189.18:8082/TV4247</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/ss/sky_uk_movies_disney_hd.png</thumbnail>
 
@@ -34,12 +34,94 @@
 <thumbnail>http://www.lyngsat-logo.com/hires/ss/sky_uk_movies_scifi_horror.png</thumbnail>
 
 <item>
-<title>[COLOR white]Sky Movies Action & Adventure[/COLOR]</title>
-<link>http://188.227.189.18:8082/TV4245</link>
-<thumbnail>http://img3.wikia.nocookie.net/__cb20111118190047/logopedia/images/0/07/Sky-Movies-ActionAdventure.png</thumbnail>
+<title>[COLOR white]Sky Movies Action[/COLOR]</title>
+<link>http://bit.do/4tFr</link>
+<thumbnail>http://img4.wikia.nocookie.net/__cb20140329135514/logopedia/images/f/f0/Sky_uk_movies_action_adventure_hd.png</thumbnail>
 
 <item>
-<title>[COLOR white]Sky Movies Premiere+[/COLOR]</title>
-<link>http://188.227.189.18:8082/TV4251</link>
-<thumbnail>http://www.lyngsat-logo.com/hires/ss/sky_uk_movies_premiere_hd.png</thumbnail>
+<title>[COLOR white]Sky Comedy[/COLOR]</title>
+<link>http://bit.do/4tFx</link>
+<thumbnail>http://www.sky.com/shop/export/sites/www.sky.com/shop/__EPG/EPGImages/ComedyHD.png_680260285.png</thumbnail>
+
+<item>
+<title>[COLOR white]Sky Arts[/COLOR]</title>
+<link>http://bit.do/4tFL</link>
+<thumbnail>http://www.classicalmusicmagazine.org/wp-content/uploads/2015/04/Sky-Arts-logo.png</thumbnail>
+
+<item>
+<title>[COLOR white]Sky News[/COLOR]</title>
+<link>rtmp://5.189.144.85/live?auth=c0a713e3d6a19edb116a68f680c54c7ac514b6c79da2f77fafcaee7ba5f43bd9//skynewsintL</link>
+<thumbnail>http://www.studiobriefing.net/wp-content/uploads/2011/03/sky-news-logo.png</thumbnail>
+
+<item>
+<title>[COLOR white]Sky Sports 1[/COLOR]</title>
+<link>rtmp://195.154.168.217:80/liverepeater playpath=303035 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co/.coms token=Fo5_n0w?U.rA6l3-70w47ch</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/ss/sky_uk_sports1.png</thumbnail>
+
+<item>
+<title>[COLOR white]Sky Sports 2[/COLOR]</title>
+<link>rtmp://195.154.168.217:80/liverepeater playpath=303018 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co/.coms token=Fo5_n0w?U.rA6l3-70w47ch</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/ss/sky_uk_sports2.png</thumbnail>
+
+<item>
+<title>[COLOR white]Sky Sports 3[/COLOR]</title>
+<link>rtmp://195.154.168.217:80/liverepeater playpath=303018 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co/.coms token=Fo5_n0w?U.rA6l3-70w47ch</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/ss/sky_uk_sports3.png</thumbnail>
+
+<item>
+<title>[COLOR white]Sky Sports 4[/COLOR]</title>
+<link>rtmp://195.154.168.217:80/liverepeater playpath=303020 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co/.coms live=1 timeout=10 token=Fo5_n0w?U.rA6l3-70w47ch</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/ss/sky_uk_sports4.png</thumbnail>
+
+<item>
+<title>[COLOR white]Sky Sports 5[/COLOR]</title>
+<link>rtmp://195.154.168.217:80/liverepeater playpath=303021 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co/.coms token=Fo5_n0w?U.rA6l3-70w47ch</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/ss/sky_uk_sports5.png</thumbnail>
+
+<item>
+<title>[COLOR white]Sky Sports F1[/COLOR]</title>
+<link>rtmp://195.154.168.217:80/liverepeater/303022 pageUrl=http://goodcast.co/ token=Fo5_n0w?U.rA6l3-70w47ch</link>
+<thumbnail>http://vignette3.wikia.nocookie.net/f1wikia/images/7/77/SkySportsF1.png/revision/latest?cb=20140320200040</thumbnail>
+
+<item>
+<title>[COLOR white]Sky Sports News[/COLOR]</title>
+<link>rtmp://94.23.53.51/send//ssnewshd.stream</link>
+<thumbnail>http://www.ranklogos.com/wp-content/uploads/2012/04/sky-sports-news-logo-1.png</thumbnail>
+
+<item>
+<title>[COLOR sliver]           ---UK Channels Basic--[/COLOR]</title>
+<link>http://200.76.77.237/LIVE/H01/CANAL373/PROFILE03.m3u8?</link>
+<thumbnail>http://www.sky.com/shop/export/sites/www.sky.com/shop/__EPG/EPGImages/ComedyHD.png_680260285.png</thumbnail>
+
+<item>
+<title>[COLOR white]BBC One London[/COLOR]</title>
+<link>http://82.135.224.134:80/udp/239.100.3.1:1234</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/commons/0/0f/Bbc_london_logo.jpg</thumbnail>
+
+<item>
+<title>[COLOR white]BBC One Scotland[/COLOR]</title>
+<link>http://82.135.224.134:80/udp/239.100.3.2:1234</link>
+<thumbnail>http://mediaportal-uk-logos.googlecode.com/svn/trunk/TV/Simple/BBC%20One%20Scotland%20HD.png</thumbnail>
+
+<item>
+<title>[COLOR white]BBC Two England[/COLOR]</title>
+<link>http://82.135.224.134:80/udp/239.100.3.3:1234</link>
+<thumbnail>http://static.timefor.tv/imgs/epg/logos/bbctwo_big.png</thumbnail>
+
+<item>
+<title>[COLOR white]BBC Four[/COLOR]</title>
+<link>http://82.135.224.134:80/udp/239.100.3.5:1234</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/en/thumb/5/58/BBC_Four_HD_Logo.svg/1280px-BBC_Four_HD_Logo.svg.png</thumbnail>
+
+<item>
+<title>[COLOR white]BBC Three[/COLOR]</title>
+<link>rtmp://5.189.144.85/live?auth=7ce8761bb61dc4ef5a30ebdd737a9f9fb15fa2bbb0abb4406095536c3249ecfa//bbc3</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/en/thumb/9/92/BBC_Three.svg/1280px-BBC_Three.svg.png</thumbnail>
+
+
+
+
+
+
+
 
