@@ -247,11 +247,11 @@
 </item>
 
 <item>
-<title>Disney</title>
+<title>Disney Channel</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/38804/Disney_(HD)-live-stream-channely_%28HD%29-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
-<page>http://www.streamlive.to/view/70048/Fox_Network-live-stream-channel-for-free</page>
+<page>http://www.streamlive.to/view/38804/Disney_%28HD%29-live-stream-channel-for-free</page>
 <expres>file: "(.*).flv</expres>
 </regex>
 <regex>
