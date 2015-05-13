@@ -50,7 +50,7 @@
 <referer>http://www.streamlive.to</referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://img1.wikia.nocookie.net/__cb20130517183330/logopedia/images/archive/2/28/20130621105519!New_abc_blue.png</thumbnail>
+<thumbnail>http://pmcdeadline2.files.wordpress.com/2014/05/abc-logo-2014__140506025424.png</thumbnail>
 </item>
 
 <item>
@@ -416,7 +416,7 @@
 </item>
 
 <item>
-<title>NBC</title>
+<title>NBC HD (Use This)</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69116/NBC-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -462,6 +462,46 @@
 </regex>
 <thumbnail>http://www.technologytell.com/entertainment/files/2012/09/nbc.png</thumbnail>
 </item>
+
+<item>
+<title>[COLOR white]NBC Stock Trader[/COLOR]</title>
+<link>rtmp://c.cdn.newschat.tv/edge playpath=cnbc_live  swfUrl=http://msnbclive.eu/player.swf  pageUrl=http://www.livenewschat.eu/stocks/player=default</link>
+<thumbnail>http://img4.wikia.nocookie.net/__cb20101109142617/logopedia/images/thumb/1/10/KWWL_NBC_7.png/860px-KWWL_NBC_7.png</thumbnail>
+
+<item>
+<title>[COLOR white]NBC SN[/COLOR]</title>
+<link>http://tvenbcsn-i.Akamaihd.net/hls/live/218235/nbcsnx/2596k/prog.m3u8|X-Forwarded-For=209.239.112.104</link>
+<thumbnail>http://img3.wikia.nocookie.net/__cb20130903050718/logopedia/images/d/d7/NBCSN_Logo.png</thumbnail>
+
+<item>
+<title>[COLOR white]NBC Golf[/COLOR]</title>
+<link>http://tvegolf-i.Akamaihd.net/hls/live/218225/golfx/2596k/prog.m3u8|X-Forwarded-For=209.239.112.104</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/en/9/98/Golf_Channel_old_logo.png</thumbnail>
+
+<item>
+<title>[COLOR white]NBC 2[/COLOR]</title>
+<link>http://50.7.69.186:1935/edge/_definst_/s5whw37nl7weedp/chunklist.m3u8?wowzasessionid=142016047</link>
+<thumbnail>https://www.jlfm.org/ama/orig/tasteoftown/NBC2_Flat_Blue_Logo.png</thumbnail>
+
+<item>
+<title>[COLOR white]NBC East Channel[/COLOR]</title>
+<link>http://50.7.69.186:1935/edge/_definst_/s5whw37nl7weedp/playlist.m3u8?wowzasessionid=1420160473</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/en/3/34/NBC_logo_2013.png</thumbnail>
+
+<item>
+<title>[COLOR white]NBC SD[/COLOR]</title>
+<link>rtmpe://192.99.38.90:1935/goLive playpath=nbc01_augqlbj1 swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf flashver=WIN/16,0,0,305 timeout=15 token=OOG17t.x#K9Vh#| live=1swfVfy=1 pageUrl=http://zerocast.tv/</link>
+<thumbnail>http://www.freelargeimages.com/wp-content/uploads/2014/11/Nbc_logo-7.png</thumbnail>
+
+<item>
+<title>[COLOR white]NBC West Channel[/COLOR]</title>
+<link>rtmpe://192.99.38.90:1935/goLive playpath=nbc01_augqlbj1 swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf flashver=WIN/16,0,0,305 timeout=15 token=OOG17t.x#K9Vh#| live=1swfVfy=1 pageUrl=http://zerocast.tv/</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/NBC_Peacock_logo_2013.svg/2000px-NBC_Peacock_logo_2013.svg.png</thumbnail>
+
+<item>
+<title>[COLOR white]NBC Backup[/COLOR]</title>
+<link>http://50.7.69.186:1935/edge/_definst_/s5whw37nl7weedp/playlist.m3u8?wowzasessionid=1420160473</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/NBC_Peacock_logo_2013.svg/2000px-NBC_Peacock_logo_2013.svg.png</thumbnail>
 
 <item>
 <title>Nickeloden</title>
@@ -798,6 +838,16 @@
 </regex>
 <thumbnail>http://img4.wikia.nocookie.net/__cb20140706180139/logopedia/images/6/67/HBO_New_Logo.png</thumbnail>
 </item>
+
+<item>
+<title>[COLOR white]HSN 2[/COLOR]</title>
+<link>rtmp://hsn.mpl.miisolutions.net:1935/hsn-live01/_definst_ playpath=mp4:468p500kB31 swfUrl=http://www.hsn.com/[[IMPORT]]/players.edgesuite.net/flash/plugins/osmf/advanced-streaming-plugin/v3.5/osmf2.0/AkamaiAdvancedStreamingPlugin.swf live=1 pageUrl=http://www.hsn.com/watch/live?network=4player=default</link>
+<thumbnail>http://www.infinitydish.com/sites/default/files/channel/images/HSN2_0.png</thumbnail>
+
+<item>
+<title>[COLOR white]HSN[/COLOR]</title>
+<link>rtsp://hsn.mpl.miisolutions.net:1935/hsn-live01/_definst_/mp4:420p500kB31</link>
+<thumbnail>http://www.infinitydish.com/sites/default/files/channel/images/HSN2_0.png</thumbnail>
 
 <item>
 <title>Showtime HD</title>
