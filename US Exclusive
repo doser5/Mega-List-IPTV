@@ -54,6 +54,21 @@
 </item>
 
 <item>
+<title>[COLOR white]ABC News[/COLOR]</title>
+<link>http://abclive.abcnews.com/i/abc_live4@136330/index_1200_av-b.m3u8?sd=10&b=1200&rebase=on</link>
+<thumbnail>https://lh4.ggpht.com/VLAqGQWkvx6lt3UdBYuUjMGq3_lB2GzXi_MoKdZQKLLy1KzKlqrvfZ-d9rU-deudBA=w300</thumbnail>
+
+<item>
+<title>[COLOR white]ABC 7[/COLOR]</title>
+<link>rtmp://178.18.31.61:443/liverepeater playpath=191903 swfUrl=http://bernardotv.club/gofuckyourself.swf pageUrl=http://biggestplayer.me/index.php?id=191881&width=620&height=470 token=#atd%#$ZH timeout=15</link>
+<thumbnail>http://img3.wikia.nocookie.net/__cb20130819224742/logopedia/images/archive/4/48/20150224000537!ABC_7_Chicago_2013_logo.png</thumbnail>
+
+<item>
+<title>[COLOR white]ABC Family[/COLOR]</title>
+<link>rtmpe://192.99.38.90:1935/goLive playpath=NyRerYqWuhRWGCsmb3f3 swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf flashver=WIN/16,0,0,305 timeout=15 live=1swfVfy=1 pageUrl=http://zerocast.tv/ token=OOG17t.x#K9Vh#|</link>
+<thumbnail>http://i.imgur.com/lLbqQgJ.png</thumbnail>
+
+<item>
 <title>A&E Entertainment US</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/68952/A%26E-live-stream-channel-for-free</link>
 <regex>
@@ -148,6 +163,16 @@
 </regex>
 <thumbnail>http://img1.wikia.nocookie.net/__cb20130415124233/logopedia/images/5/50/AMC_2013.png</thumbnail>
 </item>
+
+<item>
+<title>[COLOR white]Bravo SD[/COLOR]</title>
+<link>rtmpe://192.99.38.90:1935/goLive playpath=bpVhPyJw4wqZW7W61yV76 swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf flashver=WIN/16,0,0,305 timeout=15 token=OOG17t.x#K9Vh#| live=1swfVfy=1 pageUrl=http://zerocast.tv/</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Bravo_TV.svg/1280px-Bravo_TV.svg.png</thumbnail>
+
+<item>
+<title>[COLOR white]Bravo East[/COLOR]</title>
+<link>rtmp://178.18.31.59:443/liverepeater playpath=191905 swfUrl=http://bernardotv.club/gofuckyourself.swf pageUrl=http://biggestplayer.me/index.php?id=191881&width=620&height=470 token=#atd%#$ZH</link>
+<thumbnail>http://1.bp.blogspot.com/-xzllzpXn-Zo/T7GLJRps7JI/AAAAAAAAFiI/GROCghDVbzo/s1600/Bravo!+Canada+logo.png</thumbnail>
 
 <item>
 <title>CBS</title>
