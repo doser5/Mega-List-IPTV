@@ -272,6 +272,11 @@
 </item>
 
 <item>
+<title>[COLOR white]CW 11[/COLOR]</title>
+<link>rtmp://178.18.31.56:443/liverepeater playpath=191909 swfUrl=http://bernardotv.club/playertest.swf pageUrl=http://biggestplayer.me/index.php?id=191881&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch timeout=15</link>
+<thumbnail>http://img1.wikia.nocookie.net/__cb20100926205404/logopedia/images/e/ee/CW11_logo_2006.png</thumbnail>
+
+<item>
 <title>Disney Channel</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/38804/Disney_(HD)-live-stream-channely_%28HD%29-live-stream-channel-for-free</link>
 <regex>
@@ -416,6 +421,54 @@
 </item>
 
 <item>
+<title>Fox News HD</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/68968/Fox_News-live-stream-channel-for-free</link>
+<regex>
+<name>path</name>
+<page>http://www.streamlive.to/view/68968/Fox_News-live-stream-channel-for-free</page>
+<expres>file: "(.*).flv</expres>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token":"([^"]*)</expres>
+<page>$doregex[tokpg]</page>
+<referer>https://www.streamlive.to</referer>
+</regex>
+<regex>
+<name>tokpg</name>
+<expres>getJSON\("([^"]*)</expres>
+<page>http://www.streamlive.to/view/68968/Fox_News-live-stream-channel-for-free</page>
+</regex>
+<regex>
+<name>xs</name>
+<expres>/(\?xs=.*?)"</expres>
+<page>http://www.streamlive.to/view/68968/Fox_News-live-stream-channel-for-free</page>
+<rawpost>captcha=$doregex[answer]</rawpost>
+<referer>https://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+<ignorecache></ignorecache>
+</regex>
+<regex>
+<name>answer</name>
+<expres>$pyFunction:($doregex[captcha])</expres>
+<page></page>
+</regex>
+<regex>
+<name>captcha</name>
+<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+<page></page>
+</regex>
+<regex>
+<name>xcaptcha</name>
+<expres>Question: (.*) =</expres>
+<page>http://www.streamlive.to/view/68968/Fox_News-live-stream-channel-for-free</page>
+<referer>http://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://upload.wikimedia.org/wikipedia/en/thumb/7/72/Fox_News-2.svg/1098px-Fox_News-2.svg.png</thumbnail>
+</item>
+
+<item>
 <title>NBC HD (Use This)</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69116/NBC-live-stream-channel-for-free</link>
 <regex>
@@ -477,31 +530,6 @@
 <title>[COLOR white]NBC Golf[/COLOR]</title>
 <link>http://tvegolf-i.Akamaihd.net/hls/live/218225/golfx/2596k/prog.m3u8|X-Forwarded-For=209.239.112.104</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/en/9/98/Golf_Channel_old_logo.png</thumbnail>
-
-<item>
-<title>[COLOR white]NBC 2[/COLOR]</title>
-<link>http://50.7.69.186:1935/edge/_definst_/s5whw37nl7weedp/chunklist.m3u8?wowzasessionid=142016047</link>
-<thumbnail>https://www.jlfm.org/ama/orig/tasteoftown/NBC2_Flat_Blue_Logo.png</thumbnail>
-
-<item>
-<title>[COLOR white]NBC East Channel[/COLOR]</title>
-<link>http://50.7.69.186:1935/edge/_definst_/s5whw37nl7weedp/playlist.m3u8?wowzasessionid=1420160473</link>
-<thumbnail>http://upload.wikimedia.org/wikipedia/en/3/34/NBC_logo_2013.png</thumbnail>
-
-<item>
-<title>[COLOR white]NBC SD[/COLOR]</title>
-<link>rtmpe://192.99.38.90:1935/goLive playpath=nbc01_augqlbj1 swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf flashver=WIN/16,0,0,305 timeout=15 token=OOG17t.x#K9Vh#| live=1swfVfy=1 pageUrl=http://zerocast.tv/</link>
-<thumbnail>http://www.freelargeimages.com/wp-content/uploads/2014/11/Nbc_logo-7.png</thumbnail>
-
-<item>
-<title>[COLOR white]NBC West Channel[/COLOR]</title>
-<link>rtmpe://192.99.38.90:1935/goLive playpath=nbc01_augqlbj1 swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf flashver=WIN/16,0,0,305 timeout=15 token=OOG17t.x#K9Vh#| live=1swfVfy=1 pageUrl=http://zerocast.tv/</link>
-<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/NBC_Peacock_logo_2013.svg/2000px-NBC_Peacock_logo_2013.svg.png</thumbnail>
-
-<item>
-<title>[COLOR white]NBC Backup[/COLOR]</title>
-<link>http://50.7.69.186:1935/edge/_definst_/s5whw37nl7weedp/playlist.m3u8?wowzasessionid=1420160473</link>
-<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/NBC_Peacock_logo_2013.svg/2000px-NBC_Peacock_logo_2013.svg.png</thumbnail>
 
 <item>
 <title>Nickeloden</title>
@@ -945,50 +973,4 @@
 <thumbnail>http://img2.wikia.nocookie.net/__cb20091117205007/logopedia/images/b/b0/TNT_logo_1999.png</thumbnail>
 </item>
 
-<item>
-<title>Fox News HD</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/68968/Fox_News-live-stream-channel-for-free</link>
-<regex>
-<name>path</name>
-<page>http://www.streamlive.to/view/68968/Fox_News-live-stream-channel-for-free</page>
-<expres>file: "(.*).flv</expres>
-</regex>
-<regex>
-<name>tok</name>
-<expres>token":"([^"]*)</expres>
-<page>$doregex[tokpg]</page>
-<referer>https://www.streamlive.to</referer>
-</regex>
-<regex>
-<name>tokpg</name>
-<expres>getJSON\("([^"]*)</expres>
-<page>http://www.streamlive.to/view/68968/Fox_News-live-stream-channel-for-free</page>
-</regex>
-<regex>
-<name>xs</name>
-<expres>/(\?xs=.*?)"</expres>
-<page>http://www.streamlive.to/view/68968/Fox_News-live-stream-channel-for-free</page>
-<rawpost>captcha=$doregex[answer]</rawpost>
-<referer>https://www.streamlive.to</referer>
-<cookieJar></cookieJar>
-<ignorecache></ignorecache>
-</regex>
-<regex>
-<name>answer</name>
-<expres>$pyFunction:($doregex[captcha])</expres>
-<page></page>
-</regex>
-<regex>
-<name>captcha</name>
-<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
-<page></page>
-</regex>
-<regex>
-<name>xcaptcha</name>
-<expres>Question: (.*) =</expres>
-<page>http://www.streamlive.to/view/68968/Fox_News-live-stream-channel-for-free</page>
-<referer>http://www.streamlive.to</referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://upload.wikimedia.org/wikipedia/en/thumb/7/72/Fox_News-2.svg/1098px-Fox_News-2.svg.png</thumbnail>
-</item>
+
