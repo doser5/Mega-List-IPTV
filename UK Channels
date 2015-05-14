@@ -4,11 +4,6 @@
 </item>
 
 <item>
-<title>[COLOR sliver]           ---UK Channels Basic--[/COLOR]</title>
-<link>http://200.76.77.237/LIVE/H01/CANAL373/PROFILE03.m3u8?</link>
-<thumbnail>http://www.sky.com/shop/export/sites/www.sky.com/shop/__EPG/EPGImages/ComedyHD.png_680260285.png</thumbnail>
-
-<item>
 <title>[COLOR white]BBC One London[/COLOR]</title>
 <link>http://82.135.224.134:80/udp/239.100.3.1:1234</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/0/0f/Bbc_london_logo.jpg</thumbnail>
@@ -157,6 +152,36 @@
 <title>More 4</title>
 <link>http://live.zoptv.com/filmon/master.m3u8?id=97</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/en/thumb/7/79/More4_logo.svg/932px-More4_logo.svg.png</thumbnail>
+</item>
+
+<item>
+<title>Really UK/title>
+<link>http://live.zoptv.com/filmon/master.m3u8?id=372</link>
+<thumbnail>http://really.uktv.co.uk/static/img/default_image.jpg</thumbnail>
+</item>
+
+<item>
+<title>RTE 1/title>
+<link>http://212.250.46.35:4252/bysid/9601</link>
+<thumbnail>https://publicismedia.files.wordpress.com/2012/03/rte-logo.jpg</thumbnail>
+</item>
+
+<item>
+<title>RTE 2/title>
+<link>http://212.250.46.35:4252/bysid/9602</link>
+<thumbnail>http://212.250.46.35:4252/bysid/9602</thumbnail>
+</item>
+
+<item>
+<title>Sky Arts 1/title>
+<link>http://188.227.189.18:8082/TV4250</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/ss/sky_uk_arts1.png</thumbnail>
+</item>
+
+<item>
+<title>Sky Arts 2/title>
+<link>http://188.227.189.18:8082/TV4307</link>
+<thumbnail>http://img4.wikia.nocookie.net/__cb20111101121015/logopedia/images/5/57/Sky_arts2_2011.png</thumbnail>
 </item>
 
 
