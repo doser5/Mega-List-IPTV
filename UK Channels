@@ -33,6 +33,24 @@
 <link>rtmp://5.189.144.85/live?auth=7ce8761bb61dc4ef5a30ebdd737a9f9fb15fa2bbb0abb4406095536c3249ecfa//bbc3</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/en/thumb/9/92/BBC_Three.svg/1280px-BBC_Three.svg.png</thumbnail>
 
+<item>
+<title>BBC Three</title>
+<ftv>113</ftv>
+<thumbnail>http://upload.wikimedia.org/wikipedia/en/thumb/9/92/BBC_Three.svg/1280px-BBC_Three.svg.png</thumbnail>
+</item>
+
+<item>
+<title>Channel 4</title>
+<ftv>2</ftv>
+<thumbnail>http://upload.wikimedia.org/wikipedia/fr/thumb/b/bf/Channel_4old.svg/799px-Channel_4old.svg.png</thumbnail>
+</item>
+
+<item>
+<title>Channel 5</title>
+<ftv>22</ftv>
+<thumbnail>http://1.bp.blogspot.com/-pLeysfuqEFY/TWFV7Sy-RAI/AAAAAAAAAO8/6s5RwNhc_Lc/s1600/Channel_5_logo_2011_pre-launch.png</thumbnail>
+</item>
+
 
 
 
