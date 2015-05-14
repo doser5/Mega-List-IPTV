@@ -5,7 +5,7 @@
 <channels>
 
 <channel>
-      <name>[COLOR green]M[/COLOR][COLOR white]ega U.S.A Channels - Update: 5/13/2015[/COLOR]</name>
+      <name>[COLOR green]M[/COLOR][COLOR white]ega U.S.A Channels[/COLOR]</name>
   <thumbnail>http://i.imgur.com/X8Ri8NS.jpg</thumbnail>
 <fanart>http://feelgrafix.com/data_images/out/15/890861-soccer-wallpaper.jpg</fanart>
 <link>http://ignoreme</link>
@@ -17,7 +17,7 @@
 <channels>
 
 <channel>
-    <name>[COLOR green]M[/COLOR][COLOR white]ega Sports Channels - Update: 5/10/2015[/COLOR]</name>
+    <name>[COLOR green]M[/COLOR][COLOR white]ega Sports Channels[/COLOR]</name>
   <thumbnail>http://i.imgur.com/8K0GyAJ.jpg</thumbnail>
 <fanart>http://theartmad.com/wp-content/uploads/2015/02/Basketball-Wallpapers-29.jpg</fanart>
 <link>http://ignoreme</link>
@@ -29,7 +29,7 @@
 <channels>
 
 <channel>
-     <name>[COLOR green]M[/COLOR][COLOR white]ega Kids/Family Channels - Update: 5/13/2015[/COLOR]</name>
+     <name>[COLOR green]M[/COLOR][COLOR white]ega Kids/Family Channels[/COLOR]</name>
   <thumbnail>http://i.imgur.com/PN79cZS.jpg</thumbnail>
 <fanart>https://c1.staticflickr.com/9/8143/7468446028_faba86ab90_z.jpg</fanart>
 <link>http://ignoreme</link>
@@ -39,3 +39,13 @@
    </channels>
 
 <channels>
+
+<channel>
+            <name>[COLOR gray]M[/COLOR][COLOR white]ega U.K Channels[/COLOR]</name>
+  <thumbnail>http://i.imgur.com/TR41asz.jpg</thumbnail>
+<fanart>http://www.widdop.co.uk/WebMarketingImage/global/british-background.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/doser5/Mega-List-IPTV/master/UK%20Channels</externallink>
+<info>[COLOR white]Updated 03/05/2015 @ 00.45am[/COLOR]</info>
+</channel>
+  </channels>
