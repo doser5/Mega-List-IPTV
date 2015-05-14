@@ -50,6 +50,18 @@
 </channel>
   </channels>
   
+<channels>
+
+<channel>
+            <name>[COLOR gray]M[/COLOR][COLOR white]ega Sky Pack[/COLOR]</name>
+  <thumbnail>http://i.imgur.com/BQtG4EB.jpg</thumbnail>
+<fanart>http://www.thedrum.com/uploads/drum_basic_article/94261/main_images/BBC10.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/doser5/Mega-List-IPTV/master/SkyChannels</externallink>
+<info>[COLOR white]Updated 5/14/2015[/COLOR]</info>
+</channel>
+  </channels>
+  
   <channels>
 
 <channel>
