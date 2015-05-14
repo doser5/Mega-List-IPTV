@@ -165,11 +165,6 @@
 </item>
 
 <item>
-<title>[COLOR white]Bravo SD[/COLOR]</title>
-<link>rtmpe://192.99.38.90:1935/goLive playpath=bpVhPyJw4wqZW7W61yV76 swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf flashver=WIN/16,0,0,305 timeout=15 token=OOG17t.x#K9Vh#| live=1swfVfy=1 pageUrl=http://zerocast.tv/</link>
-<thumbnail>http://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Bravo_TV.svg/1280px-Bravo_TV.svg.png</thumbnail>
-
-<item>
 <title>[COLOR white]Bravo East[/COLOR]</title>
 <link>rtmp://178.18.31.59:443/liverepeater playpath=191905 swfUrl=http://bernardotv.club/gofuckyourself.swf pageUrl=http://biggestplayer.me/index.php?id=191881&width=620&height=470 token=#atd%#$ZH</link>
 <thumbnail>http://1.bp.blogspot.com/-xzllzpXn-Zo/T7GLJRps7JI/AAAAAAAAFiI/GROCghDVbzo/s1600/Bravo!+Canada+logo.png</thumbnail>
@@ -515,11 +510,6 @@
 </regex>
 <thumbnail>http://www.technologytell.com/entertainment/files/2012/09/nbc.png</thumbnail>
 </item>
-
-<item>
-<title>[COLOR white]NBC Stock Trader[/COLOR]</title>
-<link>rtmp://c.cdn.newschat.tv/edge playpath=cnbc_live  swfUrl=http://msnbclive.eu/player.swf  pageUrl=http://www.livenewschat.eu/stocks/player=default</link>
-<thumbnail>http://img4.wikia.nocookie.net/__cb20101109142617/logopedia/images/thumb/1/10/KWWL_NBC_7.png/860px-KWWL_NBC_7.png</thumbnail>
 
 <item>
 <title>[COLOR white]NBC SN[/COLOR]</title>
