@@ -8,11 +8,21 @@
 <channels>
 
 <channel>
-      <name>[COLOR green]M[/COLOR][COLOR white]ega U.S.A Channels - Update: 5/13/2015[/COLOR]</name>
+      <name>[COLOR red]M[/COLOR][COLOR white]ega U.S.A Channels - Update: 5/13/2015[/COLOR]</name>
   <thumbnail>http://i.imgur.com/X8Ri8NS.jpg</thumbnail>
-<fanart>http://feelgrafix.com/data_images/out/15/890861-soccer-wallpaper.jpg</fanart
+<fanart>http://feelgrafix.com/data_images/out/15/890861-soccer-wallpaper.jpg</fanart>
 <link>http://ignoreme</link>
    <externallink>https://raw.githubusercontent.com/doser5/Mega-List-IPTV/master/US%20Exclusive</externallink>
+<info>[COLOR white]Updated 03/05/2015 @ 00.45am[/COLOR]</info>
+</channel>
+  </channels>
+  
+  <channel>
+      <name>[COLOR red]M[/COLOR][COLOR white]ega U.K Channels - Update: 5/10/2015[/COLOR]</name>
+  thumbnail>http://i.imgur.com/F2g3vex.jpg</thumbnail>
+<fanart>http://www.widdop.co.uk/WebMarketingImage/global/british-background.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/doser5/Mega-List-IPTV/master/UK%20Channels</externallink>
 <info>[COLOR white]Updated 03/05/2015 @ 00.45am[/COLOR]</info>
 </channel>
   </channels>
