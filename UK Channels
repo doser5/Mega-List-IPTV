@@ -46,35 +46,38 @@
 
 <item>
 <title>[COLOR white]Channel 4[/COLOR]</title>
-<ftv>2</ftv>
+<link>http://live.zoptv.com/filmon/master.m3u8?id=2</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/fr/thumb/b/bf/Channel_4old.svg/799px-Channel_4old.svg.png</thumbnail>
 </item>
 
 <item>
 <title>[COLOR white]Channel 5[/COLOR]</title>
-<ftv>22</ftv>
+<link>http://live.zoptv.com/filmon/master.m3u8?id=22</link>
 <thumbnail>http://1.bp.blogspot.com/-pLeysfuqEFY/TWFV7Sy-RAI/AAAAAAAAAO8/6s5RwNhc_Lc/s1600/Channel_5_logo_2011_pre-launch.png</thumbnail>
 </item>
 
 <item>
-<title>CBS Drama</title>
-<ftv>1805</ftv>
-<thumbnail>http://epg.serbianforum.org/logo_znaci/CBS%20Drama%20UK.png</thumbnail>
-<fanart>http://when-will.net/images/artikel/2014/november/Stalker-CBS.jpg</fanart>
+<title>[COLOR white]CBS Drama[/COLOR]</title>
+<link>http://live.zoptv.com/filmon/master.m3u8?id=1805</link>
+<thumbnail>http://www.digitaltvselector.com/wp-content/uploads/2012/12/CBS_DramaBlue_RGB_075.png</thumbnail>
 </item>
 
 <item>
-<title>CBS Reality</title>
-<ftv>1808</ftv>
+<title>[COLOR white]CBS Reality[/COLOR]</title>
+<link>http://live.zoptv.com/filmon/master.m3u8?id=1808</link>
 <thumbnail>http://epg.serbianforum.org/logo_znaci/CBS%20Reality%20UK.png</thumbnail>
-<fanart>https://i.vimeocdn.com/video/397742514_640.jpg</fanart>
 </item>
 
 <item>
-<title>CBS Reality+1</title>
-<ftv>1811</ftv>
-<thumbnail>http://epg.serbianforum.org/logo_znaci/CBS%20Reality%20UK.png</thumbnail>
-<fanart>http://www.cbsreality.tv/uk/content/wp-content/uploads/2011/08/surf_patrol.jpg</fanart>
+<title>[COLOR white]CBS Reality +1[/COLOR]</title>
+<link>http://live.zoptv.com/filmon/master.m3u8?id=1811</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/en/archive/8/80/20130416074845!CBS_Reality.png</thumbnail>
+</item>
+
+<item>
+<title>[COLOR white]Dave[/COLOR]</title>
+<link>http://live.zoptv.com/filmon/master.m3u8?id=370</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/dd/dave_uktv.png</thumbnail>
 </item>
 
 
