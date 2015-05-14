@@ -80,6 +80,87 @@
 <thumbnail>http://www.lyngsat-logo.com/hires/dd/dave_uktv.png</thumbnail>
 </item>
 
+<item>
+<title>[COLOR white]E4[/COLOR]</title>
+<link>http://live.zoptv.com/filmon/master.m3u8?id=65</link>
+<thumbnail>http://img2.wikia.nocookie.net/__cb20101028165636/bigbrotheruk/images/d/d8/E4-logo.png</thumbnail>
+</item>
+
+
+<item>
+<title>Film4 SD</title>
+<link>http://live.zoptv.com/filmon/master.m3u8?id=13</link>
+<thumbnail>https://filmdoctor.files.wordpress.com/2013/07/film4-logo.jpg</thumbnail>
+</item>
+
+<item>
+<title>Film4 HD</title>
+<link>http://pebbles124-lh.akamaihd.net/i/film4_1@137790/master.m3u8|X-Forwarded-For=85.5.87.218</link>
+<thumbnail>https://filmdoctor.files.wordpress.com/2013/07/film4-logo.jpg</thumbnail>
+</item>
+
+<item>
+<title>Food Network</title>
+<link>http://live.zoptv.com/filmon/master.m3u8?id=20</link>
+<thumbnail>http://img1.wikia.nocookie.net/__cb20110408023419/logopedia/images/c/c9/Food_Network_HD.png</thumbnail>
+</item>
+
+<item>
+<title>Five</title>
+<link>http://live.zoptv.com/filmon/master.m3u8?id=851</link>
+<thumbnail>http://www.tv-live.org.uk/media/resources/five2002.png</thumbnail>
+</item>
+
+<item>
+<title>5 USA</title>
+<link>http://live.zoptv.com/filmon/master.m3u8?id=845</link>
+<thumbnail>http://4.bp.blogspot.com/-b9d64ZiKNzc/TWFQyC7Ni5I/AAAAAAAAAO0/_RcehLLq9NA/s1600/5USA_logo_2011.png</thumbnail>
+</item>
+
+<item>
+<title>Horor Channel</title>
+<link>http://live.zoptv.com/filmon/master.m3u8?id=836</link>
+<thumbnail>http://zombiehamster.com/wp-content/uploads/2013/10/horror-channel.jpg</thumbnail>
+</item>
+
+<item>
+<title>Horor Channel</title>
+<link>http://live.zoptv.com/filmon/master.m3u8?id=836</link>
+<thumbnail>http://zombiehamster.com/wp-content/uploads/2013/10/horror-channel.jpg</thumbnail>
+</item>
+
+<item>
+<title>ITV1</title>
+<link>http://live.zoptv.com/filmon/master.m3u8?id=11</link>
+<thumbnail>http://i2.cdnds.net/12/46/618x314/media_new_itv_logo.jpg</thumbnail>
+</item>
+
+<item>
+<title>ITV2</title>
+<link>http://live.zoptv.com/filmon/master.m3u8?id=67</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/ITV2_logo_2013.svg/200px-ITV2_logo_2013.svg.png</thumbnail>
+</item>
+
+<item>
+<title>ITV2 +1</title>
+<link>http://live.zoptv.com/filmon/master.m3u8?id=1820</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/ITV2_logo_2013.svg/200px-ITV2_logo_2013.svg.png</thumbnail>
+</item>
+
+<item>
+<title>ITVBe</title>
+<link>http://live.zoptv.com/filmon/master.m3u8?id=3211</link>
+<thumbnail>http://cdn.itv.com/uploads/editor/bZVc3WPRwPw_5XHZbd303TkEg_QMQlrrA-A5ENe52SU.jpg</thumbnail>
+</item>
+
+<item>
+<title>More 4</title>
+<link>http://live.zoptv.com/filmon/master.m3u8?id=97</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/en/thumb/7/79/More4_logo.svg/932px-More4_logo.svg.png</thumbnail>
+</item>
+
+
+
 
 
 
