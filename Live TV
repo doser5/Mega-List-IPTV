@@ -1,6 +1,3 @@
-ï»¿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-
-
 <item>
 <fanart>http://imagizer.imageshack.us/a/img661/8098/tEIDPa.jpg</fanart>
 </item>
@@ -17,12 +14,4 @@
 </channel>
   </channels>
   
-  <channel>
-      <name>[COLOR red]M[/COLOR][COLOR white]ega U.K Channels - Update: 5/10/2015[/COLOR]</name>
-  thumbnail>http://i.imgur.com/F2g3vex.jpg</thumbnail>
-<fanart>http://www.widdop.co.uk/WebMarketingImage/global/british-background.jpg</fanart>
-<link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/doser5/Mega-List-IPTV/master/UK%20Channels</externallink>
-<info>[COLOR white]Updated 03/05/2015 @ 00.45am[/COLOR]</info>
-</channel>
-  </channels>
+  
