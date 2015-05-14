@@ -14,6 +14,11 @@
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/0/0f/Bbc_london_logo.jpg</thumbnail>
 
 <item>
+<title>[COLOR white]BBC News[/COLOR]</title>
+<link>http://live.zoptv.com/filmon/master.m3u8?id=27</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/commons/0/0f/Bbc_london_logo.jpg</thumbnail>
+
+<item>
 <title>[COLOR white]BBC One Scotland[/COLOR]</title>
 <link>http://82.135.224.134:80/udp/239.100.3.2:1234</link>
 <thumbnail>http://mediaportal-uk-logos.googlecode.com/svn/trunk/TV/Simple/BBC%20One%20Scotland%20HD.png</thumbnail>
@@ -34,21 +39,42 @@
 <thumbnail>http://upload.wikimedia.org/wikipedia/en/thumb/9/92/BBC_Three.svg/1280px-BBC_Three.svg.png</thumbnail>
 
 <item>
-<title>BBC Three</title>
-<ftv>113</ftv>
+<title>[COLOR white]BBC Three[/COLOR]</title>
+<link>http://live.zoptv.com/filmon/master.m3u8?id=113</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/en/thumb/9/92/BBC_Three.svg/1280px-BBC_Three.svg.png</thumbnail>
 </item>
 
 <item>
-<title>Channel 4</title>
+<title>[COLOR white]Channel 4[/COLOR]</title>
 <ftv>2</ftv>
 <thumbnail>http://upload.wikimedia.org/wikipedia/fr/thumb/b/bf/Channel_4old.svg/799px-Channel_4old.svg.png</thumbnail>
 </item>
 
 <item>
-<title>Channel 5</title>
+<title>[COLOR white]Channel 5[/COLOR]</title>
 <ftv>22</ftv>
 <thumbnail>http://1.bp.blogspot.com/-pLeysfuqEFY/TWFV7Sy-RAI/AAAAAAAAAO8/6s5RwNhc_Lc/s1600/Channel_5_logo_2011_pre-launch.png</thumbnail>
+</item>
+
+<item>
+<title>CBS Drama</title>
+<ftv>1805</ftv>
+<thumbnail>http://epg.serbianforum.org/logo_znaci/CBS%20Drama%20UK.png</thumbnail>
+<fanart>http://when-will.net/images/artikel/2014/november/Stalker-CBS.jpg</fanart>
+</item>
+
+<item>
+<title>CBS Reality</title>
+<ftv>1808</ftv>
+<thumbnail>http://epg.serbianforum.org/logo_znaci/CBS%20Reality%20UK.png</thumbnail>
+<fanart>https://i.vimeocdn.com/video/397742514_640.jpg</fanart>
+</item>
+
+<item>
+<title>CBS Reality+1</title>
+<ftv>1811</ftv>
+<thumbnail>http://epg.serbianforum.org/logo_znaci/CBS%20Reality%20UK.png</thumbnail>
+<fanart>http://www.cbsreality.tv/uk/content/wp-content/uploads/2011/08/surf_patrol.jpg</fanart>
 </item>
 
 
