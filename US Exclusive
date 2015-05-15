@@ -668,7 +668,7 @@
 <item>
 <title>[COLOR white]NBC SN[/COLOR]</title>
 <link>http://tvenbcsn-i.Akamaihd.net/hls/live/218235/nbcsnx/2596k/prog.m3u8|X-Forwarded-For=209.239.112.104</link>
-<thumbnail>http://img3.wikia.nocookie.net/__cb20130903050718/logopedia/images/d/d7/NBCSN_Logo.png</thumbnail>
+<thumbnail>http://www.premierboxingchampions.com/sites/default/files/NBCSN_Alternate_logo.png</thumbnail>
 
 <item>
 <title>[COLOR white]NBC Golf[/COLOR]</title>
@@ -720,7 +720,7 @@
 <referer>http://www.streamlive.to</referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://images.nationalgeographic.com/wpf/sites/common/i/presentation/NGLogo560x430.png/thumbnail>
+<thumbnail>http://www.cinematicut.com/images/NGT.png/thumbnail>
 </item>
 
 <item>
@@ -770,6 +770,46 @@
 </regex>
 <thumbnail>http://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Nickelodeon_logo.svg/1024px-Nickelodeon_logo.svg.png</thumbnail>
 </item>
+
+<item>
+<title>[COLOR white]News 12 Bronx[/COLOR]</title>
+<link>rtmp://fs-b4e3010000000000.id.cdn.cv.net/vxedge/fs-b5e3010000000000 playpath=fs-b5e3010000000000 swfUrl=http://www.news12.com/player/flowplayer.commercial-3.2.7.swf app=vxedge/fs-b5e3010000000000 pageURL=http://www.news12.com/player/flowplayer/.live_player.html?region=BX live=true swfVfy=true timeout=10</link>
+<thumbnail>http://traffic.news12.com/_common/cclamp-v1-assets/assets/bronx.news12.com/img/news12/news12-logo-bx_n12.png</thumbnail>
+
+<item>
+<title>[COLOR white]News 12 Traffic and Weather Bronx[/COLOR]</title>
+<link>rtmp://fs-b4e3010000000000.id.cdn.cv.net/vxedge/fs-afe3010000000000 playpath=fs-afe3010000000000 swfUrl=http://www.news12.com/player/flowplayer.commercial-3.2.7.swf app=vxedge/fs-afe3010000000000 pageURL=http://www.news12.com/player/flowplayer/.live_player.html?region=NYTW live=true swfVfy=true timeout=10</link>
+<thumbnail>http://traffic.news12.com/_common/cclamp-v1-assets/assets/bronx.news12.com/img/news12/news12-logo-bx_n12.png</thumbnail>
+
+<item>
+<title>[COLOR white]News 12 Brooklyn[/COLOR]</title>
+<link>rtmp://fs-b4e3010000000000.id.cdn.cv.net/vxedge/fs-ace3010000000000 playpath=fs-ace3010000000000 swfUrl=http://www.news12.com/player/flowplayer.commercial-3.2.7.swf app=vxedge/fs-ace3010000000000 pageURL=http://www.news12.com/player/flowplayer/.live_player.html?region=BK live=true swfVfy=true timeout=10</link>
+<thumbnail>http://img2.wikia.nocookie.net/__cb20120801210659/logopedia/images/9/96/News_12_brooklyn_logo.png</thumbnail>
+
+<item>
+<title>[COLOR white]News 12 Traffic and Weather Brooklyn[/COLOR]</title>
+<link>rtmp://fs-b4e3010000000000.id.cdn.cv.net/vxedge/fs-afe3010000000000 playpath=fs-afe3010000000000 swfUrl=http://www.news12.com/player/flowplayer.commercial-3.2.7.swf app=vxedge/fs-afe3010000000000 pageURL=http://www.news12.com/player/flowplayer/.live_player.html?region=NYTW live=true swfVfy=true timeout=10</link>
+<thumbnail>http://img2.wikia.nocookie.net/__cb20120801210659/logopedia/images/9/96/News_12_brooklyn_logo.png</thumbnail>
+
+<item>
+<title>[COLOR white]News 12 Long Island[/COLOR]</title>
+<link>rtmp://fs-b4e3010000000000.id.cdn.cv.net/vxedge/fs-b4e3010000000000 playpath=fs-b4e3010000000000 swfUrl=http://www.news12.com/player/flowplayer.commercial-3.2.7.swf app=vxedge/fs-b4e3010000000000 pageURL=http://www.news12.com/player/flowplayer/.live_player.html?region=LI live=true swfVfy=true timeout=10</link>
+<thumbnail>http://www.darksideproductions.com/img/news12logo.png</thumbnail>
+
+<item>
+<title>[COLOR white]News 12 Traffic and Weather Long Island[/COLOR]</title>
+<link>rtmp://fs-b4e3010000000000.id.cdn.cv.net/vxedge/fs-aee3010000000000 playpath=fs-aee3010000000000 swfUrl=http://www.news12.com/player/flowplayer.commercial-3.2.7.swf app=vxedge/fs-aee3010000000000 pageURL=http://www.news12.com/player/flowplayer/.live_player.html?region=LITW live=true swfVfy=true timeout=10</link>
+<thumbnail>http://www.darksideproductions.com/img/news12logo.png</thumbnail>
+
+<item>
+<title>[COLOR white]News 12 NJ - New Jersey[/COLOR]</title>
+<link>rtmp://fs-b4e3010000000000.id.cdn.cv.net/vxedge/fs-b9e3010000000000 playpath=fs-b9e3010000000000 swfUrl=http://www.news12.com/player/flowplayer.commercial-3.2.7.swf app=vxedge/fs-b9e3010000000000 pageURL=http://www.news12.com/player/flowplayer/live_player.html?region=NJ live=true swfVfy=true timeout=10</link>
+<thumbnail>http://newjersey.news12.com/img/news12/news12-logo-nj_n12.png</thumbnail>
+
+<item>
+<title>[COLOR white]News 12 Traffic and Weather Nj[/COLOR]</title>
+<link>rtmp://fs-b4e3010000000000.id.cdn.cv.net/vxedge/fs-b3e3010000000000 playpath=fs-b3e3010000000000 swfUrl=http://www.news12.com/player/flowplayer.commercial-3.2.7.swf app=vxedge/fs-b3e3010000000000 pageURL=http://www.news12.com/player/flowplayer/live_player.html?region=NJ live=true swfVfy=true timeout=10</link>
+<thumbnail>http://newjersey.news12.com/img/news12/news12-logo-nj_n12.png</thumbnail>
 
 <item>
 <title>Syfy</title>
