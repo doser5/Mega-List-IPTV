@@ -272,6 +272,54 @@
 <thumbnail>http://img1.wikia.nocookie.net/__cb20100926205404/logopedia/images/e/ee/CW11_logo_2006.png</thumbnail>
 
 <item>
+<title>CNN HD</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/68967/CNN-live-stream-channel-for-free</link>
+<regex>
+<name>path</name>
+<page>http://www.streamlive.to/view/68966/Syfy-live-stream-channel-for-free</page>
+<expres>file: "(.*).flv</expres>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token":"([^"]*)</expres>
+<page>$doregex[tokpg]</page>
+<referer>https://www.streamlive.to</referer>
+</regex>
+<regex>
+<name>tokpg</name>
+<expres>getJSON\("([^"]*)</expres>
+<page>http://www.streamlive.to/view/68967/CNN-live-stream-channel-for-free</page>
+</regex>
+<regex>
+<name>xs</name>
+<expres>/(\?xs=.*?)"</expres>
+<page>http://www.streamlive.to/view/68967/CNN-live-stream-channel-for-free</page>
+<rawpost>captcha=$doregex[answer]</rawpost>
+<referer>https://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+<ignorecache></ignorecache>
+</regex>
+<regex>
+<name>answer</name>
+<expres>$pyFunction:($doregex[captcha])</expres>
+<page></page>
+</regex>
+<regex>
+<name>captcha</name>
+<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+<page></page>
+</regex>
+<regex>
+<name>xcaptcha</name>
+<expres>Question: (.*) =</expres>
+<page>http://www.streamlive.to/view/68967/CNN-live-stream-channel-for-free</page>
+<referer>http://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Cnn.svg/2000px-Cnn.svg.png</thumbnail>
+</item>
+
+<item>
 <title>Disney Channel</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/38804/Disney_(HD)-live-stream-channely_%28HD%29-live-stream-channel-for-free</link>
 <regex>
@@ -365,6 +413,54 @@
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Logo_Disney_XD.svg/2000px-Logo_Disney_XD.svg.png</thumbnail>
+</item>
+
+<item>
+<title>Discovery World SD</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69110/Discovery-live-stream-channel-for-free</link>
+<regex>
+<name>path</name>
+<page>http://www.streamlive.to/view/69110/Discovery-live-stream-channel-for-free</page>
+<expres>file: "(.*).flv</expres>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token":"([^"]*)</expres>
+<page>$doregex[tokpg]</page>
+<referer>https://www.streamlive.to</referer>
+</regex>
+<regex>
+<name>tokpg</name>
+<expres>getJSON\("([^"]*)</expres>
+<page>http://www.streamlive.to/view/69110/Discovery-live-stream-channel-for-free</page>
+</regex>
+<regex>
+<name>xs</name>
+<expres>/(\?xs=.*?)"</expres>
+<page>http://www.streamlive.to/view/69110/Discovery-live-stream-channel-for-free</page>
+<rawpost>captcha=$doregex[answer]</rawpost>
+<referer>https://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+<ignorecache></ignorecache>
+</regex>
+<regex>
+<name>answer</name>
+<expres>$pyFunction:($doregex[captcha])</expres>
+<page></page>
+</regex>
+<regex>
+<name>captcha</name>
+<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+<page></page>
+</regex>
+<regex>
+<name>xcaptcha</name>
+<expres>Question: (.*) =</expres>
+<page>http://www.streamlive.to/view/69110/Discovery-live-stream-channel-for-free</page>
+<referer>http://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://img2.wikia.nocookie.net/__cb20091111164212/logopedia/images/f/f2/Discovery_World_2009.png</thumbnail>
 </item>
 
 <item>
@@ -462,6 +558,64 @@
 </regex>
 <thumbnail>http://upload.wikimedia.org/wikipedia/en/thumb/7/72/Fox_News-2.svg/1098px-Fox_News-2.svg.png</thumbnail>
 </item>
+
+<item>
+<title>HBO HD</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69021/HBO-live-stream-channel-for-free</link>
+<regex>
+<name>path</name>
+<page>http://www.streamlive.to/view/69021/HBO-live-stream-channel-for-free</page>
+<expres>file: "(.*).flv</expres>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token":"([^"]*)</expres>
+<page>$doregex[tokpg]</page>
+<referer>https://www.streamlive.to</referer>
+</regex>
+<regex>
+<name>tokpg</name>
+<expres>getJSON\("([^"]*)</expres>
+<page>http://www.streamlive.to/view/69021/HBO-live-stream-channel-for-free</page>
+</regex>
+<regex>
+<name>xs</name>
+<expres>/(\?xs=.*?)"</expres>
+<page>http://www.streamlive.to/view/69021/HBO-live-stream-channel-for-free</page>
+<rawpost>captcha=$doregex[answer]</rawpost>
+<referer>https://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+<ignorecache></ignorecache>
+</regex>
+<regex>
+<name>answer</name>
+<expres>$pyFunction:($doregex[captcha])</expres>
+<page></page>
+</regex>
+<regex>
+<name>captcha</name>
+<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+<page></page>
+</regex>
+<regex>
+<name>xcaptcha</name>
+<expres>Question: (.*) =</expres>
+<page>http://www.streamlive.to/view/69021/HBO-live-stream-channel-for-free</page>
+<referer>http://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://img4.wikia.nocookie.net/__cb20140706180139/logopedia/images/6/67/HBO_New_Logo.png</thumbnail>
+</item>
+
+<item>
+<title>[COLOR white]HSN 2[/COLOR]</title>
+<link>rtmp://hsn.mpl.miisolutions.net:1935/hsn-live01/_definst_ playpath=mp4:468p500kB31 swfUrl=http://www.hsn.com/[[IMPORT]]/players.edgesuite.net/flash/plugins/osmf/advanced-streaming-plugin/v3.5/osmf2.0/AkamaiAdvancedStreamingPlugin.swf live=1 pageUrl=http://www.hsn.com/watch/live?network=4player=default</link>
+<thumbnail>http://www.infinitydish.com/sites/default/files/channel/images/HSN2_0.png</thumbnail>
+
+<item>
+<title>[COLOR white]HSN[/COLOR]</title>
+<link>rtsp://hsn.mpl.miisolutions.net:1935/hsn-live01/_definst_/mp4:420p500kB31</link>
+<thumbnail>http://www.infinitydish.com/sites/default/files/channel/images/HSN2_0.png</thumbnail>
 
 <item>
 <title>NBC HD (Use This)</title>
@@ -618,11 +772,11 @@
 </item>
 
 <item>
-<title>Discovery World SD</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69110/Discovery-live-stream-channel-for-free</link>
+<title>Syfy</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/68966/Syfy-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
-<page>http://www.streamlive.to/view/69110/Discovery-live-stream-channel-for-free</page>
+<page>http://www.streamlive.to/view/68966/Syfy-live-stream-channel-for-free</page>
 <expres>file: "(.*).flv</expres>
 </regex>
 <regex>
@@ -634,12 +788,12 @@
 <regex>
 <name>tokpg</name>
 <expres>getJSON\("([^"]*)</expres>
-<page>http://www.streamlive.to/view/69110/Discovery-live-stream-channel-for-free</page>
+<page>http://www.streamlive.to/view/68966/Syfy-live-stream-channel-for-free</page>
 </regex>
 <regex>
 <name>xs</name>
 <expres>/(\?xs=.*?)"</expres>
-<page>http://www.streamlive.to/view/69110/Discovery-live-stream-channel-for-free</page>
+<page>http://www.streamlive.to/view/68966/Syfy-live-stream-channel-for-free</page>
 <rawpost>captcha=$doregex[answer]</rawpost>
 <referer>https://www.streamlive.to</referer>
 <cookieJar></cookieJar>
@@ -658,19 +812,19 @@
 <regex>
 <name>xcaptcha</name>
 <expres>Question: (.*) =</expres>
-<page>http://www.streamlive.to/view/69110/Discovery-live-stream-channel-for-free</page>
+<page>http://www.streamlive.to/view/68966/Syfy-live-stream-channel-for-free</page>
 <referer>http://www.streamlive.to</referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://img2.wikia.nocookie.net/__cb20091111164212/logopedia/images/f/f2/Discovery_World_2009.png</thumbnail>
+<thumbnail>http://www.syfy.com/sites/syfy/files/tve_auth2/Syfylogo.png</thumbnail>
 </item>
 
 <item>
-<title>USA Network</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/38768/USA_Network-live-stream-channel-for-free</link>
+<title>Showtime HD</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69036/Showtime-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
-<page>http://www.streamlive.to/view/38768/USA_Network-live-stream-channel-for-free</page>
+<page>http://www.streamlive.to/view/69036/Showtime-live-stream-channel-for-free</page>
 <expres>file: "(.*).flv</expres>
 </regex>
 <regex>
@@ -682,12 +836,12 @@
 <regex>
 <name>tokpg</name>
 <expres>getJSON\("([^"]*)</expres>
-<page>http://www.streamlive.to/view/38768/USA_Network-live-stream-channel-for-free</page>
+<page>http://www.streamlive.to/view/69036/Showtime-live-stream-channel-for-free</page>
 </regex>
 <regex>
 <name>xs</name>
 <expres>/(\?xs=.*?)"</expres>
-<page>http://www.streamlive.to/view/38768/USA_Network-live-stream-channel-for-free</page>
+<page>http://www.streamlive.to/view/69036/Showtime-live-stream-channel-for-free</page>
 <rawpost>captcha=$doregex[answer]</rawpost>
 <referer>https://www.streamlive.to</referer>
 <cookieJar></cookieJar>
@@ -706,11 +860,11 @@
 <regex>
 <name>xcaptcha</name>
 <expres>Question: (.*) =</expres>
-<page>http://www.streamlive.to/view/38768/USA_Network-live-stream-channel-for-free</page>
+<page>http://www.streamlive.to/view/69036/Showtime-live-stream-channel-for-free</page>
 <referer>http://www.streamlive.to</referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/USA_Network_logo_(2006).svg/2000px-USA_Network_logo_(2006).svg.png</thumbnail>
+<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/2000px-Showtime.svg.png</thumbnail>
 </item>
 
 <item>
@@ -762,208 +916,6 @@
 </item>
 
 <item>
-<title>Syfy</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/68966/Syfy-live-stream-channel-for-free</link>
-<regex>
-<name>path</name>
-<page>http://www.streamlive.to/view/68966/Syfy-live-stream-channel-for-free</page>
-<expres>file: "(.*).flv</expres>
-</regex>
-<regex>
-<name>tok</name>
-<expres>token":"([^"]*)</expres>
-<page>$doregex[tokpg]</page>
-<referer>https://www.streamlive.to</referer>
-</regex>
-<regex>
-<name>tokpg</name>
-<expres>getJSON\("([^"]*)</expres>
-<page>http://www.streamlive.to/view/68966/Syfy-live-stream-channel-for-free</page>
-</regex>
-<regex>
-<name>xs</name>
-<expres>/(\?xs=.*?)"</expres>
-<page>http://www.streamlive.to/view/68966/Syfy-live-stream-channel-for-free</page>
-<rawpost>captcha=$doregex[answer]</rawpost>
-<referer>https://www.streamlive.to</referer>
-<cookieJar></cookieJar>
-<ignorecache></ignorecache>
-</regex>
-<regex>
-<name>answer</name>
-<expres>$pyFunction:($doregex[captcha])</expres>
-<page></page>
-</regex>
-<regex>
-<name>captcha</name>
-<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
-<page></page>
-</regex>
-<regex>
-<name>xcaptcha</name>
-<expres>Question: (.*) =</expres>
-<page>http://www.streamlive.to/view/68966/Syfy-live-stream-channel-for-free</page>
-<referer>http://www.streamlive.to</referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://www.syfy.com/sites/syfy/files/tve_auth2/Syfylogo.png</thumbnail>
-</item>
-
-<item>
-<title>CNN HD</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/68967/CNN-live-stream-channel-for-free</link>
-<regex>
-<name>path</name>
-<page>http://www.streamlive.to/view/68966/Syfy-live-stream-channel-for-free</page>
-<expres>file: "(.*).flv</expres>
-</regex>
-<regex>
-<name>tok</name>
-<expres>token":"([^"]*)</expres>
-<page>$doregex[tokpg]</page>
-<referer>https://www.streamlive.to</referer>
-</regex>
-<regex>
-<name>tokpg</name>
-<expres>getJSON\("([^"]*)</expres>
-<page>http://www.streamlive.to/view/68967/CNN-live-stream-channel-for-free</page>
-</regex>
-<regex>
-<name>xs</name>
-<expres>/(\?xs=.*?)"</expres>
-<page>http://www.streamlive.to/view/68967/CNN-live-stream-channel-for-free</page>
-<rawpost>captcha=$doregex[answer]</rawpost>
-<referer>https://www.streamlive.to</referer>
-<cookieJar></cookieJar>
-<ignorecache></ignorecache>
-</regex>
-<regex>
-<name>answer</name>
-<expres>$pyFunction:($doregex[captcha])</expres>
-<page></page>
-</regex>
-<regex>
-<name>captcha</name>
-<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
-<page></page>
-</regex>
-<regex>
-<name>xcaptcha</name>
-<expres>Question: (.*) =</expres>
-<page>http://www.streamlive.to/view/68967/CNN-live-stream-channel-for-free</page>
-<referer>http://www.streamlive.to</referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Cnn.svg/2000px-Cnn.svg.png</thumbnail>
-</item>
-
-<item>
-<title>HBO HD</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69021/HBO-live-stream-channel-for-free</link>
-<regex>
-<name>path</name>
-<page>http://www.streamlive.to/view/69021/HBO-live-stream-channel-for-free</page>
-<expres>file: "(.*).flv</expres>
-</regex>
-<regex>
-<name>tok</name>
-<expres>token":"([^"]*)</expres>
-<page>$doregex[tokpg]</page>
-<referer>https://www.streamlive.to</referer>
-</regex>
-<regex>
-<name>tokpg</name>
-<expres>getJSON\("([^"]*)</expres>
-<page>http://www.streamlive.to/view/69021/HBO-live-stream-channel-for-free</page>
-</regex>
-<regex>
-<name>xs</name>
-<expres>/(\?xs=.*?)"</expres>
-<page>http://www.streamlive.to/view/69021/HBO-live-stream-channel-for-free</page>
-<rawpost>captcha=$doregex[answer]</rawpost>
-<referer>https://www.streamlive.to</referer>
-<cookieJar></cookieJar>
-<ignorecache></ignorecache>
-</regex>
-<regex>
-<name>answer</name>
-<expres>$pyFunction:($doregex[captcha])</expres>
-<page></page>
-</regex>
-<regex>
-<name>captcha</name>
-<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
-<page></page>
-</regex>
-<regex>
-<name>xcaptcha</name>
-<expres>Question: (.*) =</expres>
-<page>http://www.streamlive.to/view/69021/HBO-live-stream-channel-for-free</page>
-<referer>http://www.streamlive.to</referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://img4.wikia.nocookie.net/__cb20140706180139/logopedia/images/6/67/HBO_New_Logo.png</thumbnail>
-</item>
-
-<item>
-<title>[COLOR white]HSN 2[/COLOR]</title>
-<link>rtmp://hsn.mpl.miisolutions.net:1935/hsn-live01/_definst_ playpath=mp4:468p500kB31 swfUrl=http://www.hsn.com/[[IMPORT]]/players.edgesuite.net/flash/plugins/osmf/advanced-streaming-plugin/v3.5/osmf2.0/AkamaiAdvancedStreamingPlugin.swf live=1 pageUrl=http://www.hsn.com/watch/live?network=4player=default</link>
-<thumbnail>http://www.infinitydish.com/sites/default/files/channel/images/HSN2_0.png</thumbnail>
-
-<item>
-<title>[COLOR white]HSN[/COLOR]</title>
-<link>rtsp://hsn.mpl.miisolutions.net:1935/hsn-live01/_definst_/mp4:420p500kB31</link>
-<thumbnail>http://www.infinitydish.com/sites/default/files/channel/images/HSN2_0.png</thumbnail>
-
-<item>
-<title>Showtime HD</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69036/Showtime-live-stream-channel-for-free</link>
-<regex>
-<name>path</name>
-<page>http://www.streamlive.to/view/69036/Showtime-live-stream-channel-for-free</page>
-<expres>file: "(.*).flv</expres>
-</regex>
-<regex>
-<name>tok</name>
-<expres>token":"([^"]*)</expres>
-<page>$doregex[tokpg]</page>
-<referer>https://www.streamlive.to</referer>
-</regex>
-<regex>
-<name>tokpg</name>
-<expres>getJSON\("([^"]*)</expres>
-<page>http://www.streamlive.to/view/69036/Showtime-live-stream-channel-for-free</page>
-</regex>
-<regex>
-<name>xs</name>
-<expres>/(\?xs=.*?)"</expres>
-<page>http://www.streamlive.to/view/69036/Showtime-live-stream-channel-for-free</page>
-<rawpost>captcha=$doregex[answer]</rawpost>
-<referer>https://www.streamlive.to</referer>
-<cookieJar></cookieJar>
-<ignorecache></ignorecache>
-</regex>
-<regex>
-<name>answer</name>
-<expres>$pyFunction:($doregex[captcha])</expres>
-<page></page>
-</regex>
-<regex>
-<name>captcha</name>
-<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
-<page></page>
-</regex>
-<regex>
-<name>xcaptcha</name>
-<expres>Question: (.*) =</expres>
-<page>http://www.streamlive.to/view/69036/Showtime-live-stream-channel-for-free</page>
-<referer>http://www.streamlive.to</referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/2000px-Showtime.svg.png</thumbnail>
-</item>
-
-<item>
 <title>TNT HD</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69020/TNT-live-stream-channel-for-free</link>
 <regex>
@@ -1009,6 +961,54 @@
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>http://img2.wikia.nocookie.net/__cb20091117205007/logopedia/images/b/b0/TNT_logo_1999.png</thumbnail>
+</item>
+
+<item>
+<title>USA Network</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/38768/USA_Network-live-stream-channel-for-free</link>
+<regex>
+<name>path</name>
+<page>http://www.streamlive.to/view/38768/USA_Network-live-stream-channel-for-free</page>
+<expres>file: "(.*).flv</expres>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token":"([^"]*)</expres>
+<page>$doregex[tokpg]</page>
+<referer>https://www.streamlive.to</referer>
+</regex>
+<regex>
+<name>tokpg</name>
+<expres>getJSON\("([^"]*)</expres>
+<page>http://www.streamlive.to/view/38768/USA_Network-live-stream-channel-for-free</page>
+</regex>
+<regex>
+<name>xs</name>
+<expres>/(\?xs=.*?)"</expres>
+<page>http://www.streamlive.to/view/38768/USA_Network-live-stream-channel-for-free</page>
+<rawpost>captcha=$doregex[answer]</rawpost>
+<referer>https://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+<ignorecache></ignorecache>
+</regex>
+<regex>
+<name>answer</name>
+<expres>$pyFunction:($doregex[captcha])</expres>
+<page></page>
+</regex>
+<regex>
+<name>captcha</name>
+<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+<page></page>
+</regex>
+<regex>
+<name>xcaptcha</name>
+<expres>Question: (.*) =</expres>
+<page>http://www.streamlive.to/view/38768/USA_Network-live-stream-channel-for-free</page>
+<referer>http://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/USA_Network_logo_(2006).svg/2000px-USA_Network_logo_(2006).svg.png</thumbnail>
 </item>
 
 
