@@ -368,7 +368,7 @@
 </item>
 
 <item>
-<title>Disney xD USA</title>
+<title>Disney xD</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/70698/Disney_XD_%5BHD%5D-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -416,7 +416,7 @@
 </item>
 
 <item>
-<title>Discovery World SD</title>
+<title>Discovery Channel</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69110/Discovery-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -460,7 +460,55 @@
 <referer>http://www.streamlive.to</referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://img2.wikia.nocookie.net/__cb20091111164212/logopedia/images/f/f2/Discovery_World_2009.png</thumbnail>
+<thumbnail>http://img2.wikia.nocookie.net/__cb20100728112637/logopedia/images/3/34/Discovery_Channel_2000.png</thumbnail>
+</item>
+
+<item>
+<title>Food Network</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69023/Food_Network-live-stream-channel-for-free</link>
+<regex>
+<name>path</name>
+<page>http://www.streamlive.to/view/69023/Food_Network-live-stream-channel-for-free</page>
+<expres>file: "(.*).flv</expres>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token":"([^"]*)</expres>
+<page>$doregex[tokpg]</page>
+<referer>https://www.streamlive.to</referer>
+</regex>
+<regex>
+<name>tokpg</name>
+<expres>getJSON\("([^"]*)</expres>
+<page>http://www.streamlive.to/view/69023/Food_Network-live-stream-channel-for-free</page>
+</regex>
+<regex>
+<name>xs</name>
+<expres>/(\?xs=.*?)"</expres>
+<page>http://www.streamlive.to/view/69023/Food_Network-live-stream-channel-for-free</page>
+<rawpost>captcha=$doregex[answer]</rawpost>
+<referer>https://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+<ignorecache></ignorecache>
+</regex>
+<regex>
+<name>answer</name>
+<expres>$pyFunction:($doregex[captcha])</expres>
+<page></page>
+</regex>
+<regex>
+<name>captcha</name>
+<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+<page></page>
+</regex>
+<regex>
+<name>xcaptcha</name>
+<expres>Question: (.*) =</expres>
+<page>http://www.streamlive.to/view/69023/Food_Network-live-stream-channel-for-free</page>
+<referer>http://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://static1.squarespace.com/static/53e3e4e2e4b0e15dfb33c699/53e6fe06e4b09aec9175b373/53e71c39e4b09aec9175c1ae/1407654976244/Food+Network_Logo_B%26W.png</thumbnail>
 </item>
 
 <item>
@@ -714,7 +762,7 @@
 <thumbnail>http://www.infinitydish.com/sites/default/files/channel/images/HSN2_0.png</thumbnail>
 
 <item>
-<title>NBC HD (Use This)</title>
+<title>NBC Local</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69116/NBC-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
