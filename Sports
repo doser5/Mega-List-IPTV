@@ -105,6 +105,54 @@
 </item>
 
 <item>
+<title>Bein Sports 2 HD </title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/70466/Bein_Sport_France_2_%28HD%29-live-stream-channel-for-free</link>
+<regex>
+<name>path</name>
+<page>http://www.streamlive.to/view/70466/Bein_Sport_France_2_%28HD%29-live-stream-channel-for-free</page>
+<expres>file: "(.*).flv</expres>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token":"([^"]*)</expres>
+<page>$doregex[tokpg]</page>
+<referer>https://www.streamlive.to</referer>
+</regex>
+<regex>
+<name>tokpg</name>
+<expres>getJSON\("([^"]*)</expres>
+<page>http://www.streamlive.to/view/70466/Bein_Sport_France_2_%28HD%29-live-stream-channel-for-free</page>
+</regex>
+<regex>
+<name>xs</name>
+<expres>/(\?xs=.*?)"</expres>
+<page>http://www.streamlive.to/view/70466/Bein_Sport_France_2_%28HD%29-live-stream-channel-for-free</page>
+<rawpost>captcha=$doregex[answer]</rawpost>
+<referer>https://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+<ignorecache></ignorecache>
+</regex>
+<regex>
+<name>answer</name>
+<expres>$pyFunction:($doregex[captcha])</expres>
+<page></page>
+</regex>
+<regex>
+<name>captcha</name>
+<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+<page></page>
+</regex>
+<regex>
+<name>xcaptcha</name>
+<expres>Question: (.*) =</expres>
+<page>http://www.streamlive.to/view/70466/Bein_Sport_France_2_%28HD%29-live-stream-channel-for-free</page>
+<referer>http://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.dreambox-sat.com/forum/imgcache/2014/289616_dreambox-sat.com.png</thumbnail>
+</item>
+
+<item>
 <title>[COLOR white]British Eurosport[/COLOR]</title>
 <link>rtmp://80.82.64.140:443/liverepeater playpath=28 swfUrl=http://popeoftheplayers.eu/atdedead.swf pageUrl=http://popeoftheplayers.eu/player3.php?id=22&width=600&height=450 token=#atd%#$ZH</link>
 <thumbnail>http://svgeurope.org/wp-content/blogs.dir/17/files/2012/07/British1.png</thumbnail>
@@ -681,7 +729,7 @@
 </item>
 
 <item>
-<title>Sky Sports News)</title>
+<title>Sky Sports News</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/70648/Sky_Sports_News-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -728,6 +776,58 @@
 <thumbnail>http://www.ranklogos.com/wp-content/uploads/2012/04/sky-sports-news-logo-1.png</thumbnail>
 </item>
 
+<item>
+<title>TNT Impact Wrestling</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/67052/TNA_Impact_Wrestling_Live_Destination_America_HD-live-stream-channel-for-free</link>
+<regex>
+<name>path</name>
+<page>http://www.streamlive.to/view/67052/TNA_Impact_Wrestling_Live_Destination_America_HD-live-stream-channel-for-free</page>
+<expres>file: "(.*).flv</expres>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token":"([^"]*)</expres>
+<page>$doregex[tokpg]</page>
+<referer>https://www.streamlive.to</referer>
+</regex>
+<regex>
+<name>tokpg</name>
+<expres>getJSON\("([^"]*)</expres>
+<page>http://www.streamlive.to/view/67052/TNA_Impact_Wrestling_Live_Destination_America_HD-live-stream-channel-for-free</page>
+</regex>
+<regex>
+<name>xs</name>
+<expres>/(\?xs=.*?)"</expres>
+<page>http://www.streamlive.to/view/67052/TNA_Impact_Wrestling_Live_Destination_America_HD-live-stream-channel-for-free</page>
+<rawpost>captcha=$doregex[answer]</rawpost>
+<referer>https://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+<ignorecache></ignorecache>
+</regex>
+<regex>
+<name>answer</name>
+<expres>$pyFunction:($doregex[captcha])</expres>
+<page></page>
+</regex>
+<regex>
+<name>captcha</name>
+<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+<page></page>
+</regex>
+<regex>
+<name>xcaptcha</name>
+<expres>Question: (.*) =</expres>
+<page>http://www.streamlive.to/view/67052/TNA_Impact_Wrestling_Live_Destination_America_HD-live-stream-channel-for-free</page>
+<referer>http://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.dafont.com/forum/attach/orig/3/4/34292.png</thumbnail>
+</item>
+
+<item>
+<title>[COLOR white]WWE Network[/COLOR]</title>
+<link>rtmp://178.18.31.52:443/liverepeater playpath=191918 swfUrl=http://bernardotv.club/playertest.swf pageUrl=http://biggestplayer.me/stream.php?id=191918&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/en/archive/d/df/20140903154946!Wwenetworktransparent.png</thumbnail>
 
 
 
