@@ -290,6 +290,82 @@
 <link>rtmp://31.220.0.195:80/live playpath=fox1x swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://reytv.co/ token=%Zrey(nKa@#Z live=1 </link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/d/dc/FSR-4cBluetxt-color-hi-res.png</thumbnail>
 
+<item>
+<title>[COLOR white]Fox Sports 2 SD[/COLOR]</title>
+<link>rtmp://31.220.0.195:80/live playpath=fox2x swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://reytv.co/ token=%Zrey(nKa@#Z live=1</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/en/7/7e/Fox_Sports_2_logo.png</thumbnail>
+
+<item>
+<title>[COLOR white]Fox Sports 2 SD[/COLOR]</title>
+<link>rtmp://31.220.0.195:80/live playpath=fox2x swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://reytv.co/ token=%Zrey(nKa@#Z live=1</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/en/7/7e/Fox_Sports_2_logo.png</thumbnail>
+
+<item>
+<title>[COLOR white]Major League Baseball Network[/COLOR]</title>
+<link>rtmp://31.220.0.195:80/live playpath=mlbxx swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://reytv.co/embedu.php?live=mlbxx&vw=620&vh=490 token=%Zrey(nKa@#Z</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/en/thumb/a/ac/MLBNetworkLogo.svg/993px-MLBNetworkLogo.svg.png</thumbnail>
+
+<item>
+<title>[COLOR white]NBC Sports Network HD[/COLOR]</title>
+<link>http://tvenbcsn-i.Akamaihd.net/hls/live/218235/nbcsnx/4296k/prog.m3u8|X-Forwarded-For=209.239.112.104</link>
+<thumbnail>http://img3.wikia.nocookie.net/__cb20140329165219/logopedia/images/7/72/NBCSN_Alternate_logo.png</thumbnail>
+
+<item>
+<title>[COLOR white]NBC Sports Network HD[/COLOR]</title>
+<link>http://tvenbcsn-i.Akamaihd.net/hls/live/218235/nbcsnx/2596k/prog.m3u8|X-Forwarded-For=209.239.112.104
+</link>
+<thumbnail>http://img3.wikia.nocookie.net/__cb20140329165219/logopedia/images/7/72/NBCSN_Alternate_logo.png</thumbnail>
+
+<item>
+<title>NBA TV HD</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/68953/NBA_TV_%28HD%29-live-stream-channel-for-free</link>
+<regex>
+<name>path</name>
+<page>http://www.streamlive.to/view/68953/NBA_TV_%28HD%29-live-stream-channel-for-free</page>
+<expres>file: "(.*).flv</expres>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token":"([^"]*)</expres>
+<page>$doregex[tokpg]</page>
+<referer>https://www.streamlive.to</referer>
+</regex>
+<regex>
+<name>tokpg</name>
+<expres>getJSON\("([^"]*)</expres>
+<page>http://www.streamlive.to/view/68953/NBA_TV_%28HD%29-live-stream-channel-for-free</page>
+</regex>
+<regex>
+<name>xs</name>
+<expres>/(\?xs=.*?)"</expres>
+<page>http://www.streamlive.to/view/68953/NBA_TV_%28HD%29-live-stream-channel-for-free</page>
+<rawpost>captcha=$doregex[answer]</rawpost>
+<referer>https://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+<ignorecache></ignorecache>
+</regex>
+<regex>
+<name>answer</name>
+<expres>$pyFunction:($doregex[captcha])</expres>
+<page></page>
+</regex>
+<regex>
+<name>captcha</name>
+<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+<page></page>
+</regex>
+<regex>
+<name>xcaptcha</name>
+<expres>Question: (.*) =</expres>
+<page>http://www.streamlive.to/view/68953/NBA_TV_%28HD%29-live-stream-channel-for-free</page>
+<referer>http://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://upload.wikimedia.org/wikipedia/en/2/2e/NBA_TV_Canada_HD.png</thumbnail>
+</item>
+
+
+
 
 
 
