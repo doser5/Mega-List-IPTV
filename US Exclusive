@@ -320,6 +320,11 @@
 </item>
 
 <item>
+<title>[COLOR white]Comedy Central SD[/COLOR]</title>
+<link>rtmp://178.18.31.56:443/liverepeater playpath=191907 swfUrl=http://bernardotv.club/playertest.swf pageUrl=http://biggestplayer.me/index.php?id=191881&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch</link>
+<thumbnail>http://img1.wikia.nocookie.net/__cb20101021084335/nickelodeon/de/images/6/61/Comedy_Central_Logo_Neu_2010.png</thumbnail>
+
+<item>
 <title>Disney Channel</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/38804/Disney_(HD)-live-stream-channely_%28HD%29-live-stream-channel-for-free</link>
 <regex>
@@ -462,6 +467,11 @@
 </regex>
 <thumbnail>http://img2.wikia.nocookie.net/__cb20100728112637/logopedia/images/3/34/Discovery_Channel_2000.png</thumbnail>
 </item>
+
+<item>
+<title>[COLOR white]FX SD[/COLOR]</title>
+<link>rtmp://rtmp.zerocast.tv/live?t=xwqRhn5dC playpath=fx swfUrl=http://cdn.ibrod.tv/player.swf pageUrl=http://zerocast.tv/embed.php?a=10&id=&width=640&height=480&autostart=true&strech= live=1swfVfy=1 token=8964316ec8772dfa</link>
+<thumbnail>http://foxcitiestv.com/files/images/fx.png</thumbnail>
 
 <item>
 <title>Food Network</title>
