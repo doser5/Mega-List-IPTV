@@ -376,7 +376,7 @@
 </item>
 
 <item>
-<title>[COLOR white]Disney xD - Down[/COLOR]</title>
+<title>[COLOR white]Disney xD[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/70698/Disney_XD_%5BHD%5D-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -735,7 +735,7 @@
 <item>
 <title>[COLOR white]PBS SD[/COLOR]</title>
 <link>rtmp://128.104.144.134/WisconsinChannel/ playpath=mystream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://www.stream2watch.com/streams/94214/1 live=1</link>
-<thumbnail>http://img1.wikia.nocookie.net/__cb20121223143155/logopedia/images/8/8a/PBS_Logo_PBS.png</thumbnail>
+<thumbnail>http://img4.wikia.nocookie.net/__cb20121120052613/logopedia/images/0/0b/PBS_Logo.svg.png</thumbnail>
 
 <item>
 <title>[COLOR white]OWN Network[/COLOR]</title>
