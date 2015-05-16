@@ -73,3 +73,15 @@
 <info>[COLOR white]Updated 03/05/2015 @ 00.45am[/COLOR]</info>
 </channel>
   </channels>
+  
+   <channels>
+
+<channel>
+            <name>[COLOR gray]M[/COLOR][COLOR white]ega Click On Links Twice[/COLOR]</name>
+  <thumbnail>http://i.imgur.com/lE4i72i.jpg</thumbnail>
+<fanart>http://i.imgur.com/lE4i72i.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/doser5/Mega-List-IPTV/master/UK%20Channels</externallink>
+<info>[COLOR white]Updated Daily[/COLOR]</info>
+</channel>
+  </channels>
