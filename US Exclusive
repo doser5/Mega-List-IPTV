@@ -931,8 +931,8 @@
 
 <item>
 <title>[COLOR white]NBC SD[/COLOR]</title>
-<link>rtmp://178.18.31.56:443/liverepeater playpath=191914 swfUrl=http://bernardotv.club/playertest.swf pageUrl=http://biggestplayer.me/stream.php?id=191914&width=620&height=470</link>
-<thumbnail>http://www.technologytell.com/entertainment/files/2012/09/nbc.png<</thumbnail>
+<link>rtmp://178.18.31.56:443/liverepeater playpath=191914 swfUrl=http://bernardotv.club/playertest.swf pageUrl=http://biggestplayer.me/stream.php?id=191914&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch timeout=15</link>
+<thumbnail>http://www.technologytell.com/entertainment/files/2012/09/nbc.png</thumbnail>
 
 <item>
 <title>[COLOR white]NBC SN[/COLOR]</title>
