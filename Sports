@@ -426,6 +426,11 @@
 <thumbnail>http://3.bp.blogspot.com/-NlgkVk9-wGs/Uq_9418Hq4I/AAAAAAAAdJs/sdagUNUIIho/s1600/Golf+Channel+logo+2011.png</thumbnail>
 
 <item>
+<title>[COLOR white]PTV Sports[/COLOR]</title>
+<link>rtmp://178.18.31.63:443/liverepeater playpath=194041 swfUrl=http://bernardotv.club/playertest.swf pageUrl=http://biggestplayer.me/stream.php?id=194041&width=620&height=470</link>
+<thumbnail>http://www.ptvsports.pk/wp-content/uploads/2012/09/PTV-Sports-Channel-logo.jpg</thumbnail>
+
+<item>
 <title>[COLOR white]Sports Net 360 HD[/COLOR]</title>
 <link>http://nlds187.cdnak.neulion.com/nlds/sportsnetnow/sn_360/as/live/sn_360_hd_ipad.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/ss/sportsnet_360.png</thumbnail>
