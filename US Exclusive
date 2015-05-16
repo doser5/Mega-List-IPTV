@@ -1041,6 +1041,12 @@
 </item>
 
 <item>
+<title>[COLOR white]Nickeloden USA[/COLOR]</title>
+<link>rtmp://178.18.31.56:443/liverepeater playpath=194059 swfUrl=http://bernardotv.club/playertest.swf pageUrl=http://biggestplayer.me/stream.php?id=194058&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch</link>
+<thumbnail>http://vignette4.wikia.nocookie.net/nickelodeon/images/f/fa/Nickelodeon_logo_2009.png/revision/latest?cb=20111126205115</thumbnail>
+</item>
+
+<item>
 <title>[COLOR white]News 12 Bronx[/COLOR]</title>
 <link>rtmp://fs-b4e3010000000000.id.cdn.cv.net/vxedge/fs-b5e3010000000000 playpath=fs-b5e3010000000000 swfUrl=http://www.news12.com/player/flowplayer.commercial-3.2.7.swf app=vxedge/fs-b5e3010000000000 pageURL=http://www.news12.com/player/flowplayer/.live_player.html?region=BX live=true swfVfy=true timeout=10</link>
 <thumbnail>http://traffic.news12.com/_common/cclamp-v1-assets/assets/bronx.news12.com/img/news12/news12-logo-bx_n12.png</thumbnail>
