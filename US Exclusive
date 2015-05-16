@@ -9,7 +9,7 @@
 <thumbnail>http://i.imgur.com/lE4i72i.jpg</thumbnail>
 
 <item>
-<title>ABC Channel</title>
+<title>[COLOR white]ABC Channel[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/68969/ABC-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -72,7 +72,7 @@
 <thumbnail>http://i.imgur.com/lLbqQgJ.png</thumbnail>
 
 <item>
-<title>A&E Entertainment US</title>
+<title>[COLOR white]A&E USA[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/68952/A%26E-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -120,7 +120,7 @@
 </item>
 
 <item>
-<title>AMC HD</title>
+<title>[COLOR white]AMC HD[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/68963/AMC-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -173,7 +173,7 @@
 <thumbnail>http://1.bp.blogspot.com/-xzllzpXn-Zo/T7GLJRps7JI/AAAAAAAAFiI/GROCghDVbzo/s1600/Bravo!+Canada+logo.png</thumbnail>
 
 <item>
-<title>CBS</title>
+<title>[COLOR white]CBS[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69956/CBS-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -222,7 +222,7 @@
  
 
 <item>
-<title>CW HD</title>
+<title>[COLOR white]CW Channel[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/52510/CW_(HD)-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -275,7 +275,7 @@
 <thumbnail>http://img1.wikia.nocookie.net/__cb20100926205404/logopedia/images/e/ee/CW11_logo_2006.png</thumbnail>
 
 <item>
-<title>CNN HD</title>
+<title>[COLOR white]CNN HD[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/68967/CNN-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -328,7 +328,7 @@
 <thumbnail>http://img1.wikia.nocookie.net/__cb20101021084335/nickelodeon/de/images/6/61/Comedy_Central_Logo_Neu_2010.png</thumbnail>
 
 <item>
-<title>Disney Channel</title>
+<title>[COLOR white]Disney Channel[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/38804/Disney_(HD)-live-stream-channely_%28HD%29-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -376,7 +376,7 @@
 </item>
 
 <item>
-<title>Disney xD</title>
+<title>[COLOR white]Disney xD - Down[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/70698/Disney_XD_%5BHD%5D-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -424,7 +424,7 @@
 </item>
 
 <item>
-<title>Discovery Channel</title>
+<title>[COLOR white]Discovery Channel[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69110/Discovery-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -477,7 +477,7 @@
 <thumbnail>http://foxcitiestv.com/files/images/fx.png</thumbnail>
 
 <item>
-<title>Food Network</title>
+<title>[COLOR white]Food Network[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69023/Food_Network-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -525,7 +525,7 @@
 </item>
 
 <item>
-<title>FOX 45</title>
+<title>[COLOR white]Fox 45[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/70048/Fox_Network-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -573,7 +573,7 @@
 </item>
 
 <item>
-<title>ESPN</title>
+<title>[COLOR white]ESPN[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69029/ESPN-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -621,7 +621,7 @@
 </item>
 
 <item>
-<title>Fox News HD</title>
+<title>[COLOR white]Fox News HD[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/68968/Fox_News-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -669,7 +669,7 @@
 </item>
 
 <item>
-<title>HBO HD</title>
+<title>[COLOR white]HBO HD[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69021/HBO-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -738,7 +738,7 @@
 <thumbnail>http://img1.wikia.nocookie.net/__cb20121223143155/logopedia/images/8/8a/PBS_Logo_PBS.png</thumbnail>
 
 <item>
-<title>OWN Network</title>
+<title>[COLOR white]OWN Network[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/53857/OWN_-_Oprah_Winfrey_Network_%28HD%29-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -786,7 +786,7 @@
 </item>
 
 <item>
-<title>MSNBC</title>
+<title>[COLOR white]MSNBC[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69024/MSNBC-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -834,7 +834,7 @@
 </item>
 
 <item>
-<title>MTV</title>
+<title>[COLOR white]MTV[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69037/MTV_-_Music_Television-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -882,7 +882,7 @@
 </item>
 
 <item>
-<title>NBC Local</title>
+<title>[COLOR white]NBC[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69116/NBC-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -930,6 +930,11 @@
 </item>
 
 <item>
+<title>[COLOR white]NBC SD[/COLOR]</title>
+<link>rtmp://178.18.31.56:443/liverepeater playpath=191914 swfUrl=http://bernardotv.club/playertest.swf pageUrl=http://biggestplayer.me/stream.php?id=191914&width=620&height=470</link>
+<thumbnail>http://www.technologytell.com/entertainment/files/2012/09/nbc.png<</thumbnail>
+
+<item>
 <title>[COLOR white]NBC SN[/COLOR]</title>
 <link>http://tvenbcsn-i.Akamaihd.net/hls/live/218235/nbcsnx/2596k/prog.m3u8|X-Forwarded-For=209.239.112.104</link>
 <thumbnail>http://www.premierboxingchampions.com/sites/default/files/NBCSN_Alternate_logo.png</thumbnail>
@@ -940,7 +945,7 @@
 <thumbnail>http://upload.wikimedia.org/wikipedia/en/9/98/Golf_Channel_old_logo.png</thumbnail>
 
 <item>
-<title>National Geographic Channel</title>
+<title>[COLOR white]National Geographic Channel[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69018/National_Geographic-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -988,7 +993,7 @@
 </item>
 
 <item>
-<title>Nickeloden</title>
+<title>[COLOR white]Nickeloden[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/71112/Nickelodeon-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -1076,7 +1081,7 @@
 <thumbnail>http://newjersey.news12.com/img/news12/news12-logo-nj_n12.png</thumbnail>
 
 <item>
-<title>Syfy</title>
+<title>[COLOR white]Syfy[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/68966/Syfy-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -1124,7 +1129,7 @@
 </item>
 
 <item>
-<title>Showtime HD</title>
+<title>[COLOR white]Showtime HD[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69036/Showtime-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -1172,7 +1177,7 @@
 </item>
 
 <item>
-<title>TBS</title>
+<title>[COLOR white]TBS[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/53161/TBS-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -1220,7 +1225,7 @@
 </item>
 
 <item>
-<title>TNT HD</title>
+<title>[COLOR white]TNT HD[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69020/TNT-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -1268,7 +1273,7 @@
 </item>
 
 <item>
-<title>USA Network</title>
+<title>[COLOR white]USA Network[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/38768/USA_Network-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
@@ -1315,52 +1320,6 @@
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/USA_Network_logo_(2006).svg/2000px-USA_Network_logo_(2006).svg.png</thumbnail>
 </item>
 
-<item>
-<title>Spike TV Test</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/52479/Spike_TV-live-stream-channel-for-free</link>
-<regex>
-<name>path</name>
-<page>http://www.streamlive.to/view/52479/Spike_TV-live-stream-channel-for-free</page>
-<expres>file: "(.*).flv</expres>
-</regex>
-<regex>
-<name>tok</name>
-<expres>token":"([^"]*)</expres>
-<page>$doregex[tokpg]</page>
-<referer>https://www.streamlive.to</referer>
-</regex>
-<regex>
-<name>tokpg</name>
-<expres>getJSON\("([^"]*)</expres>
-<page>http://www.streamlive.to/view/52479/Spike_TV-live-stream-channel-for-free</page>
-</regex>
-<regex>
-<name>xs</name>
-<expres>/(\?xs=.*?)"</expres>
-<page>http://www.streamlive.to/view/52479/Spike_TV-live-stream-channel-for-free</page>
-<rawpost>captcha=$doregex[answer]</rawpost>
-<referer>https://www.streamlive.to</referer>
-<cookieJar></cookieJar>
-<ignorecache></ignorecache>
-</regex>
-<regex>
-<name>answer</name>
-<expres>$pyFunction:($doregex[captcha])</expres>
-<page></page>
-</regex>
-<regex>
-<name>captcha</name>
-<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
-<page></page>
-</regex>
-<regex>
-<name>xcaptcha</name>
-<expres>Question: (.*) =</expres>
-<page>http://www.streamlive.to/view/52479/Spike_TV-live-stream-channel-for-free</page>
-<referer>http://www.streamlive.to</referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://pmcdeadline2.files.wordpress.com/2014/05/abc-logo-2014__140506025424.png</thumbnail>
-</item>
+
 
 
