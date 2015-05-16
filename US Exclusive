@@ -9,7 +9,11 @@
 <thumbnail>http://i.imgur.com/lE4i72i.jpg</thumbnail>
 
 <item>
-<title>[COLOR white]ABC Channel+http://www.locatetv.com/listings/abc[/COLOR]</title>
+<title>[COLOR white]ABC Channel + tvg-id="-ABC-2[/COLOR]</title>
+</channel>
+<channel id="-ABC-2">
+<display-name lang="en">ABC-2</display-name>
+<url>http://www.tvguide.com</url>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/68969/ABC-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
