@@ -279,7 +279,7 @@
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/68967/CNN-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
-<page>http://www.streamlive.to/view/68966/Syfy-live-stream-channel-for-free</page>
+<page>http://www.streamlive.to/view/68967/CNN-live-stream-channel-for-free</page>
 <expres>file: "(.*).flv</expres>
 </regex>
 <regex>
