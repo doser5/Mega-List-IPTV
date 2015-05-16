@@ -442,10 +442,10 @@
 
 <item>
 <title>Sky Sports 1 (HD)</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/70643/Sky_Sports_1-live-stream-channel-for-free</link>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/68939/Sky_Sports_1_Live_Stream-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
-<page>http://www.streamlive.to/view/70643/Sky_Sports_1-live-stream-channel-for-free</page>
+<page>http://www.streamlive.to/view/68939/Sky_Sports_1_Live_Stream-live-stream-channel-for-free</page>
 <expres>file: "(.*).flv</expres>
 </regex>
 <regex>
@@ -457,12 +457,12 @@
 <regex>
 <name>tokpg</name>
 <expres>getJSON\("([^"]*)</expres>
-<page>http://www.streamlive.to/view/70643/Sky_Sports_1-live-stream-channel-for-free</page>
+<page>http://www.streamlive.to/view/68939/Sky_Sports_1_Live_Stream-live-stream-channel-for-free</page>
 </regex>
 <regex>
 <name>xs</name>
 <expres>/(\?xs=.*?)"</expres>
-<page>http://www.streamlive.to/view/70643/Sky_Sports_1-live-stream-channel-for-free</page>
+<page>http://www.streamlive.to/view/68939/Sky_Sports_1_Live_Stream-live-stream-channel-for-free</page>
 <rawpost>captcha=$doregex[answer]</rawpost>
 <referer>https://www.streamlive.to</referer>
 <cookieJar></cookieJar>
@@ -481,7 +481,7 @@
 <regex>
 <name>xcaptcha</name>
 <expres>Question: (.*) =</expres>
-<page>http://www.streamlive.to/view/70643/Sky_Sports_1-live-stream-channel-for-free</page>
+<page>http://www.streamlive.to/view/68939/Sky_Sports_1_Live_Stream-live-stream-channel-for-free</page>
 <referer>http://www.streamlive.to</referer>
 <cookieJar></cookieJar>
 </regex>
