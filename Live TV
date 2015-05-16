@@ -74,7 +74,17 @@
 </channel>
   </channels>
   
-   <channels>
+    <channels>
+
+<channel>
+            <name>[COLOR red]M[/COLOR][COLOR white]ovie of the Week[/COLOR]</name>
+  <thumbnail>http://i.imgur.com/CcGuK7c.jpg</thumbnail>
+<fanart>http://privateaudio.homestead.com/stage_red_3.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/doser5/Mega-List-IPTV/master/MovieOfTheWeek</externallink>
+<info>[COLOR white]Updated Daily[/COLOR]</info>
+</channel>
+  </channels>
 
 <channel>
             <name>[COLOR gray]M[/COLOR][COLOR white]ega Click On Links Twice[/COLOR]</name>
@@ -85,3 +95,5 @@
 <info>[COLOR white]Updated Daily[/COLOR]</info>
 </channel>
   </channels>
+  
+  
