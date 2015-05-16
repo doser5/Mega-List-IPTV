@@ -480,7 +480,7 @@
 
 <item>
 <title>[COLOR white]Premier Sports[/COLOR]</title>
-<link>rtmp://93.158.217.202:80/live playpath=premiersport swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://reytv.co/embedu.php?live=premiersport&vw=620&vh=490</link>
+<link>rtmp://93.158.217.202:80/live playpath=premiersport swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://reytv.co/embedu.php?live=premiersport&vw=620&vh=490 token=%Zrey(nKa@#Z</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/ru/8/83/Premier_Sports_logo.png</thumbnail>
 
 <item>
