@@ -9,6 +9,11 @@
 <thumbnail>http://i.imgur.com/lE4i72i.jpg</thumbnail>
 
 <item>
+<title>[COLOR white]At the Races[/COLOR]</title>
+<link>rtmp://93.158.217.242:80/live playpath=atracessa swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://reytv.co/embedu.php?live=atracessa&vw=620&vh=490 token=%Zrey(nKa@#Z</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/en/b/b6/New_at_the_races_logo_2008.png</thumbnail>
+
+<item>
 <title>Box Nation HD</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/68719/Box_Nation_%28HD%29-live-stream-channel-for-free</link>
 <regex>
