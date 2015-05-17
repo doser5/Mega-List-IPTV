@@ -9,6 +9,11 @@
 <thumbnail>http://pmcdeadline2.files.wordpress.com/2014/05/abc-logo-2014__140506025424.png</thumbnail>
 
 <item>
+<title>[COLOR white]Animal Planet[/COLOR]</title>
+<link>http://79.133.110.101:8888/udp/239.191.254.32:13343</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/en/3/3a/Animal_Planet_Canada_Logo.PNG</thumbnail>
+
+<item>
 <title>[COLOR white]ABC 7[/COLOR]</title>
 <link>rtmp://rtmp.zerocast.tv/live?t=xwqRhn5dC playpath=rGCi7bg0Qxvs8q7Sl13l swfUrl=http://cdn.ibrod.tv/player.swf flashver=WIN\202012,0,0,77 timeout=15 live=1swfVfy=1 pageUrl=http://zerocast.tv/ token=8964316ec8772dfa</link>
 <thumbnail>http://www.niutoday.info/wp-content/uploads/2012/10/kk6h2lmbx27ii5275501.png</thumbnail>
@@ -49,6 +54,11 @@
 <thumbnail>http://img1.wikia.nocookie.net/__cb20101021084335/nickelodeon/de/images/6/61/Comedy_Central_Logo_Neu_2010.png</thumbnail>
 
 <item>
+<title>[COLOR white]CNBC[/COLOR]</title>
+<link>http://bit.do/2YaF</link>
+<thumbnail>https://lh6.ggpht.com/SxgvBL9zdbQkBrFv13anliGDAsGk5cdpMs7OHcPi_0NX_2VmUzghPlbKHrHlqnLqT8YT=w300</thumbnail>
+
+<item>
 <title>[COLOR white]Cartoon Network[/COLOR]</title>
 <link>hrtmp://rtmp.zerocast.tv/live?t=xwqRhn5dC playpath=cn swfUrl=http://cdn.ibrod.tv/player.swf flashver=WIN\202012,0,0,77 timeout=15 token=8964316ec8772dfa live=1swfVfy=1 pageUrl=http://zerocast.tv/?a=3&b=6</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Cartoon_Network_2004_logo.svg/1280px-Cartoon_Network_2004_logo.svg.png</thumbnail>
@@ -56,11 +66,6 @@
 <item>
 <title>[COLOR white]CNN[/COLOR]</title>
 <link>rtmp://178.18.31.54:443/liverepeater playpath=194107 swfUrl=http://bernardotv.club/playertest.swf pageUrl=http://biggestplayer.me/stream.php?id=194107&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch timeout=15</link>
-<thumbnail>http://cdn2.hubspot.net/hub/340321/file-521872348-png/CNN.png</thumbnail>
-
-<item>
-<title>[COLOR white]CNN International[/COLOR]</title>
-<link>http://tv4p.ru/03t/239.2.120.147.m3u8</link>
 <thumbnail>http://cdn2.hubspot.net/hub/340321/file-521872348-png/CNN.png</thumbnail>
 
 <item>
@@ -76,7 +81,7 @@
 <item>
 <title>[COLOR white]CBS[/COLOR]</title>
 <link>rtmp://178.18.31.64:443/liverepeater playpath=191906 swfUrl=http://bernardotv.club/playertest.swf pageUrl=http://biggestplayer.me/stream.php?id=191906&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch timeout=15</link>
-<thumbnail>http://www.cbsbroadcastcenter.com/cbs-logo.jpg</thumbnail>
+<thumbnail>http://thedesk.matthewkeys.net/wp-content/uploads/2013/08/110202cbs-logo1.jpg</thumbnail>
 
 <item>
 <title>[COLOR white]FOX[/COLOR]</title>
@@ -92,6 +97,11 @@
 <title>[COLOR white]MTV[/COLOR]</title>
 <link>rtmp://rtmp.zerocast.tv/live?t=xwqRhn5dC playpath=mtv swfUrl=http://cdn.ibrod.tv/player.swf flashver=WIN\202012,0,0,77 timeout=15 token=8964316ec8772dfa live=1swfVfy=1 pageUrl=http://zerocast.tv/</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/7/76/MTV_Logo.svg/2000px-MTV_Logo.svg.png</thumbnail>
+
+<item>
+<title>[COLOR white]MSNBC[/COLOR]</title>
+<link>rtmp://d.cdn.newschat.tv/edge playpath=msnbc_live swfUrl=http://msnbclive.eu/player.swf live=1 pageUrl=http://www.livenewschat.eu/politics/</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/commons/7/74/MSNBC_logo.png</thumbnail>
 
 <item>
 <title>[COLOR white]MY9[/COLOR]</title>
@@ -198,6 +208,11 @@
 </item>
 
 <item>
+<title>[COLOR white]Nasa TV HD[/COLOR]</title>
+<link>http://public.infozen.cshls.lldns.net/infozen/public/public.m3u8?husham.com</link>
+<thumbnail>https://yt3.ggpht.com/-D7tNppml7sw/AAAAAAAAAAI/AAAAAAAAAAA/65fuq-FHf3g/s900-c-k-no/photo.jpg</thumbnail>
+
+<item>
 <title>[COLOR white]News 12 Bronx[/COLOR]</title>
 <link>rtmp://fs-b4e3010000000000.id.cdn.cv.net/vxedge/fs-b5e3010000000000 playpath=fs-b5e3010000000000 swfUrl=http://www.news12.com/player/flowplayer.commercial-3.2.7.swf app=vxedge/fs-b5e3010000000000 pageURL=http://www.news12.com/player/flowplayer/.live_player.html?region=BX live=true swfVfy=true timeout=10</link>
 <thumbnail>http://traffic.news12.com/_common/cclamp-v1-assets/assets/bronx.news12.com/img/news12/news12-logo-bx_n12.png</thumbnail>
@@ -272,6 +287,25 @@
 <link>rtmp://178.18.31.53:443/liverepeater playpath=191917 swfUrl=http://bernardotv.club/playertest.swf pageUrl=http://biggestplayer.me/stream.php?id=191917&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch timeout=15</link>
 <thumbnail>http://img2.wikia.nocookie.net/__cb20091117205007/logopedia/images/b/b0/TNT_logo_1999.png</thumbnail>
 
+<item>
+<title>[COLOR white]The Florida Channel[/COLOR]</title>
+<link>rtmp://webcasting.thefloridachannel.org/live/tvweb1</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/en/3/3c/FloridaChannel.png</thumbnail>
+
+<item>
+<title>[COLOR white]Warner HD[/COLOR]</title>
+<link>http://200.76.77.237/LIVE/H01/CANAL205/PROFILE05.m3u8?</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/ww/warner_films_ca.png</thumbnail>
+
+<item>
+<title>[COLOR white]Warner SD[/COLOR]</title>
+<link>http://200.76.77.237/LIVE/H01/CANAL205/PROFILE03.m3u8?</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/ww/warner_films_ca.png</thumbnail>
+
+<item>
+<title>[COLOR white]USA Network[/COLOR]</title>
+<link>rtmpe://167.114.157.67:1935/goLive/jvZXQUYQmlsPirfiVK1G swfurl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf pageUrl=http://zerocast.tv/embed.php?a=19 token=OOG17t.x#K9Vh#|</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/USA_Network_logo_(2006).svg/2000px-USA_Network_logo_(2006).svg.png</thumbnail>
 
 
 
