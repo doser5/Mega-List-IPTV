@@ -1087,59 +1087,86 @@
 <thumbnail>http://newjersey.news12.com/img/news12/news12-logo-nj_n12.png</thumbnail>
 
 <item>
-<title>[COLOR white]Syfy[/COLOR]</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/68966/Syfy-live-stream-channel-for-free</link>
-<regex>
-<name>path</name>
-<page>http://www.streamlive.to/view/68966/Syfy-live-stream-channel-for-free</page>
-<expres>file: "(.*).flv</expres>
-</regex>
-<regex>
-<name>tok</name>
-<expres>token":"([^"]*)</expres>
-<page>$doregex[tokpg]</page>
-<referer>https://www.streamlive.to</referer>
-</regex>
-<regex>
-<name>tokpg</name>
-<expres>getJSON\("([^"]*)</expres>
-<page>http://www.streamlive.to/view/68966/Syfy-live-stream-channel-for-free</page>
-</regex>
-<regex>
-<name>xs</name>
-<expres>/(\?xs=.*?)"</expres>
-<page>http://www.streamlive.to/view/68966/Syfy-live-stream-channel-for-free</page>
-<rawpost>captcha=$doregex[answer]</rawpost>
-<referer>https://www.streamlive.to</referer>
-<cookieJar></cookieJar>
-<ignorecache></ignorecache>
-</regex>
-<regex>
-<name>answer</name>
-<expres>$pyFunction:($doregex[captcha])</expres>
-<page></page>
-</regex>
-<regex>
-<name>captcha</name>
-<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
-<page></page>
-</regex>
-<regex>
-<name>xcaptcha</name>
-<expres>Question: (.*) =</expres>
-<page>http://www.streamlive.to/view/68966/Syfy-live-stream-channel-for-free</page>
-<referer>http://www.streamlive.to</referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://www.syfy.com/sites/syfy/files/tve_auth2/Syfylogo.png</thumbnail>
+<title><COLOR green>***MegaIPTV***</COLOR></title>
+<thumbnail><thumbnail>
 </item>
 
 <item>
-<title>[COLOR white]Showtime HD[/COLOR]</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69036/Showtime-live-stream-channel-for-free</link>
+<title>[COLOR white]Click On Links Twice[/COLOR]</title>
+<link>rtmpe://192.99.38.90:1935/goLive playpath=NyRerYqWuhRWGCsmb3f3 swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf flashver=WIN/16,0,0,305 timeout=15 live=1swfVfy=1 pageUrl=http://zerocast.tv/ token=OOG17t.x#K9Vh#|</link>
+<thumbnail>http://i.imgur.com/lE4i72i.jpg</thumbnail>
+
+<item>
+<title>[COLOR white]Channels Removed Due to Copyright Issue by Owners.[/COLOR]</title>
+<link>rtmpe://192.99.38.90:1935/goLive playpath=NyRerYqWuhRWGCsmb3f3 swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf flashver=WIN/16,0,0,305 timeout=15 live=1swfVfy=1 pageUrl=http://zerocast.tv/ token=OOG17t.x#K9Vh#|</link>
+<thumbnail>http://i.imgur.com/lE4i72i.jpg</thumbnail>
+
+<item>
+<title>[COLOR white]I'm sorry as of now i've removed them. Kept some of the channels sorry guys :([/COLOR]</title>
+<link>rtmpe://192.99.38.90:1935/goLive playpath=NyRerYqWuhRWGCsmb3f3 swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf flashver=WIN/16,0,0,305 timeout=15 live=1swfVfy=1 pageUrl=http://zerocast.tv/ token=OOG17t.x#K9Vh#|</link>
+<thumbnail>http://i.imgur.com/lE4i72i.jpg</thumbnail>
+
+<item>
+<title>[COLOR white]ABC News[/COLOR]</title>
+<link>http://abclive.abcnews.com/i/abc_live4@136330/index_1200_av-b.m3u8?sd=10&b=1200&rebase=on</link>
+<thumbnail>https://lh4.ggpht.com/VLAqGQWkvx6lt3UdBYuUjMGq3_lB2GzXi_MoKdZQKLLy1KzKlqrvfZ-d9rU-deudBA=w300</thumbnail>
+
+<item>
+<title>[COLOR white]ABC 7[/COLOR]</title>
+<link>rtmp://178.18.31.61:443/liverepeater playpath=191903 swfUrl=http://bernardotv.club/gofuckyourself.swf pageUrl=http://biggestplayer.me/index.php?id=191881&width=620&height=470 token=#atd%#$ZH timeout=15</link>
+<thumbnail>http://img3.wikia.nocookie.net/__cb20130819224742/logopedia/images/archive/4/48/20150224000537!ABC_7_Chicago_2013_logo.png</thumbnail>
+
+<item>
+<title>[COLOR white]ABC Family[/COLOR]</title>
+<link>rtmpe://192.99.38.90:1935/goLive playpath=NyRerYqWuhRWGCsmb3f3 swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf flashver=WIN/16,0,0,305 timeout=15 live=1swfVfy=1 pageUrl=http://zerocast.tv/ token=OOG17t.x#K9Vh#|</link>
+<thumbnail>http://i.imgur.com/lLbqQgJ.png</thumbnail>
+
+<item>
+<title>[COLOR white]Bravo East[/COLOR]</title>
+<link>rtmp://178.18.31.59:443/liverepeater playpath=191905 swfUrl=http://bernardotv.club/gofuckyourself.swf pageUrl=http://biggestplayer.me/index.php?id=191881&width=620&height=470 token=#atd%#$ZH</link>
+<thumbnail>http://1.bp.blogspot.com/-xzllzpXn-Zo/T7GLJRps7JI/AAAAAAAAFiI/GROCghDVbzo/s1600/Bravo!+Canada+logo.png</thumbnail>
+
+<item>
+<title>[COLOR white]CW 11[/COLOR]</title>
+<link>rtmp://178.18.31.56:443/liverepeater playpath=191909 swfUrl=http://bernardotv.club/playertest.swf pageUrl=http://biggestplayer.me/index.php?id=191881&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch timeout=15</link>
+<thumbnail>http://img1.wikia.nocookie.net/__cb20100926205404/logopedia/images/e/ee/CW11_logo_2006.png</thumbnail>
+
+<item>
+<title>[COLOR white]Comedy Central SD[/COLOR]</title>
+<link>rtmp://178.18.31.56:443/liverepeater playpath=191907 swfUrl=http://bernardotv.club/playertest.swf pageUrl=http://biggestplayer.me/index.php?id=191881&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch</link>
+<thumbnail>http://img1.wikia.nocookie.net/__cb20101021084335/nickelodeon/de/images/6/61/Comedy_Central_Logo_Neu_2010.png</thumbnail>
+
+<item>
+<title>[COLOR white]FX SD[/COLOR]</title>
+<link>rtmp://rtmp.zerocast.tv/live?t=xwqRhn5dC playpath=fx swfUrl=http://cdn.ibrod.tv/player.swf pageUrl=http://zerocast.tv/embed.php?a=10&id=&width=640&height=480&autostart=true&strech= live=1swfVfy=1 token=8964316ec8772dfa</link>
+<thumbnail>http://foxcitiestv.com/files/images/fx.png</thumbnail>
+
+<item>
+<title>[COLOR white]HBO 2 SD[/COLOR]</title>
+<link>rtmp://109.200.202.124/live playpath=hbo2 swfUrl=http://www.tv-msn.com/player/player.swf live=1 pageUrl=http://tv-msn.com/hbo2.html</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/commons/9/9e/HBO_2_Logo_Poland.png</thumbnail>
+
+<item>
+<title>[COLOR white]HSN 2[/COLOR]</title>
+<link>rtmp://hsn.mpl.miisolutions.net:1935/hsn-live01/_definst_ playpath=mp4:468p500kB31 swfUrl=http://www.hsn.com/[[IMPORT]]/players.edgesuite.net/flash/plugins/osmf/advanced-streaming-plugin/v3.5/osmf2.0/AkamaiAdvancedStreamingPlugin.swf live=1 pageUrl=http://www.hsn.com/watch/live?network=4player=default</link>
+<thumbnail>http://www.infinitydish.com/sites/default/files/channel/images/HSN2_0.png</thumbnail>
+
+<item>
+<title>[COLOR white]HSN[/COLOR]</title>
+<link>rtsp://hsn.mpl.miisolutions.net:1935/hsn-live01/_definst_/mp4:420p500kB31</link>
+<thumbnail>http://www.infinitydish.com/sites/default/files/channel/images/HSN2_0.png</thumbnail>
+
+<item>
+<title>[COLOR white]PBS SD[/COLOR]</title>
+<link>rtmp://128.104.144.134/WisconsinChannel/ playpath=mystream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://www.stream2watch.com/streams/94214/1 live=1</link>
+<thumbnail>http://img4.wikia.nocookie.net/__cb20121120052613/logopedia/images/0/0b/PBS_Logo.svg.png</thumbnail>
+
+<item>
+<title>[COLOR white]OWN Network[/COLOR]</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/53857/OWN_-_Oprah_Winfrey_Network_%28HD%29-live-stream-channel-for-free</link>
 <regex>
 <name>path</name>
-<page>http://www.streamlive.to/view/69036/Showtime-live-stream-channel-for-free</page>
+<page>http://www.streamlive.to/view/53857/OWN_-_Oprah_Winfrey_Network_%28HD%29-live-stream-channel-for-free</page>
 <expres>file: "(.*).flv</expres>
 </regex>
 <regex>
@@ -1151,12 +1178,12 @@
 <regex>
 <name>tokpg</name>
 <expres>getJSON\("([^"]*)</expres>
-<page>http://www.streamlive.to/view/69036/Showtime-live-stream-channel-for-free</page>
+<page>http://www.streamlive.to/view/53857/OWN_-_Oprah_Winfrey_Network_%28HD%29-live-stream-channel-for-free</page>
 </regex>
 <regex>
 <name>xs</name>
 <expres>/(\?xs=.*?)"</expres>
-<page>http://www.streamlive.to/view/69036/Showtime-live-stream-channel-for-free</page>
+<page>http://www.streamlive.to/view/53857/OWN_-_Oprah_Winfrey_Network_%28HD%29-live-stream-channel-for-free</page>
 <rawpost>captcha=$doregex[answer]</rawpost>
 <referer>https://www.streamlive.to</referer>
 <cookieJar></cookieJar>
@@ -1175,156 +1202,87 @@
 <regex>
 <name>xcaptcha</name>
 <expres>Question: (.*) =</expres>
-<page>http://www.streamlive.to/view/69036/Showtime-live-stream-channel-for-free</page>
+<page>http://www.streamlive.to/view/53857/OWN_-_Oprah_Winfrey_Network_%28HD%29-live-stream-channel-for-free</page>
 <referer>http://www.streamlive.to</referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/2000px-Showtime.svg.png</thumbnail>
+<thumbnail>http://www.dafont.com/forum/attach/orig/4/4/443960.png</thumbnail>
 </item>
 
 <item>
-<title>[COLOR white]TBS[/COLOR]</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/53161/TBS-live-stream-channel-for-free</link>
-<regex>
-<name>path</name>
-<page>http://www.streamlive.to/view/53161/TBS-live-stream-channel-for-free</page>
-<expres>file: "(.*).flv</expres>
-</regex>
-<regex>
-<name>tok</name>
-<expres>token":"([^"]*)</expres>
-<page>$doregex[tokpg]</page>
-<referer>https://www.streamlive.to</referer>
-</regex>
-<regex>
-<name>tokpg</name>
-<expres>getJSON\("([^"]*)</expres>
-<page>http://www.streamlive.to/view/53161/TBS-live-stream-channel-for-free</page>
-</regex>
-<regex>
-<name>xs</name>
-<expres>/(\?xs=.*?)"</expres>
-<page>http://www.streamlive.to/view/53161/TBS-live-stream-channel-for-free</page>
-<rawpost>captcha=$doregex[answer]</rawpost>
-<referer>https://www.streamlive.to</referer>
-<cookieJar></cookieJar>
-<ignorecache></ignorecache>
-</regex>
-<regex>
-<name>answer</name>
-<expres>$pyFunction:($doregex[captcha])</expres>
-<page></page>
-</regex>
-<regex>
-<name>captcha</name>
-<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
-<page></page>
-</regex>
-<regex>
-<name>xcaptcha</name>
-<expres>Question: (.*) =</expres>
-<page>http://www.streamlive.to/view/53161/TBS-live-stream-channel-for-free</page>
-<referer>http://www.streamlive.to</referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://vignette3.wikia.nocookie.net/familyguy/images/2/2c/TBS_logo.png/revision/latest?cb=20110222204011</thumbnail>
+<title>[COLOR white]NBC SD[/COLOR]</title>
+<link>rtmp://178.18.31.56:443/liverepeater playpath=191914 swfUrl=http://bernardotv.club/playertest.swf pageUrl=http://biggestplayer.me/stream.php?id=191914&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch timeout=15</link>
+<thumbnail>http://www.technologytell.com/entertainment/files/2012/09/nbc.png</thumbnail>
+
+<item>
+<title>[COLOR white]NBC SN[/COLOR]</title>
+<link>http://tvenbcsn-i.Akamaihd.net/hls/live/218235/nbcsnx/2596k/prog.m3u8|X-Forwarded-For=209.239.112.104</link>
+<thumbnail>http://www.premierboxingchampions.com/sites/default/files/NBCSN_Alternate_logo.png</thumbnail>
+
+<item>
+<title>[COLOR white]NBC Golf[/COLOR]</title>
+<link>http://tvegolf-i.Akamaihd.net/hls/live/218225/golfx/2596k/prog.m3u8|X-Forwarded-For=209.239.112.104</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/en/9/98/Golf_Channel_old_logo.png</thumbnail>
+
+<item>
+<title>[COLOR white]Nickeloden USA[/COLOR]</title>
+<link>rtmp://178.18.31.56:443/liverepeater playpath=194059 swfUrl=http://bernardotv.club/playertest.swf pageUrl=http://biggestplayer.me/stream.php?id=194058&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch</link>
+<thumbnail>http://vignette4.wikia.nocookie.net/nickelodeon/images/f/fa/Nickelodeon_logo_2009.png/revision/latest?cb=20111126205115</thumbnail>
 </item>
 
 <item>
-<title>[COLOR white]TNT HD[/COLOR]</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/69020/TNT-live-stream-channel-for-free</link>
-<regex>
-<name>path</name>
-<page>http://www.streamlive.to/view/69020/TNT-live-stream-channel-for-free</page>
-<expres>file: "(.*).flv</expres>
-</regex>
-<regex>
-<name>tok</name>
-<expres>token":"([^"]*)</expres>
-<page>$doregex[tokpg]</page>
-<referer>https://www.streamlive.to</referer>
-</regex>
-<regex>
-<name>tokpg</name>
-<expres>getJSON\("([^"]*)</expres>
-<page>http://www.streamlive.to/view/69020/TNT-live-stream-channel-for-free</page>
-</regex>
-<regex>
-<name>xs</name>
-<expres>/(\?xs=.*?)"</expres>
-<page>http://www.streamlive.to/view/69020/TNT-live-stream-channel-for-free</page>
-<rawpost>captcha=$doregex[answer]</rawpost>
-<referer>https://www.streamlive.to</referer>
-<cookieJar></cookieJar>
-<ignorecache></ignorecache>
-</regex>
-<regex>
-<name>answer</name>
-<expres>$pyFunction:($doregex[captcha])</expres>
-<page></page>
-</regex>
-<regex>
-<name>captcha</name>
-<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
-<page></page>
-</regex>
-<regex>
-<name>xcaptcha</name>
-<expres>Question: (.*) =</expres>
-<page>http://www.streamlive.to/view/69020/TNT-live-stream-channel-for-free</page>
-<referer>http://www.streamlive.to</referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://img2.wikia.nocookie.net/__cb20091117205007/logopedia/images/b/b0/TNT_logo_1999.png</thumbnail>
-</item>
+<title>[COLOR white]News 12 Bronx[/COLOR]</title>
+<link>rtmp://fs-b4e3010000000000.id.cdn.cv.net/vxedge/fs-b5e3010000000000 playpath=fs-b5e3010000000000 swfUrl=http://www.news12.com/player/flowplayer.commercial-3.2.7.swf app=vxedge/fs-b5e3010000000000 pageURL=http://www.news12.com/player/flowplayer/.live_player.html?region=BX live=true swfVfy=true timeout=10</link>
+<thumbnail>http://traffic.news12.com/_common/cclamp-v1-assets/assets/bronx.news12.com/img/news12/news12-logo-bx_n12.png</thumbnail>
 
 <item>
-<title>[COLOR white]USA Network[/COLOR]</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/38768/USA_Network-live-stream-channel-for-free</link>
-<regex>
-<name>path</name>
-<page>http://www.streamlive.to/view/38768/USA_Network-live-stream-channel-for-free</page>
-<expres>file: "(.*).flv</expres>
-</regex>
-<regex>
-<name>tok</name>
-<expres>token":"([^"]*)</expres>
-<page>$doregex[tokpg]</page>
-<referer>https://www.streamlive.to</referer>
-</regex>
-<regex>
-<name>tokpg</name>
-<expres>getJSON\("([^"]*)</expres>
-<page>http://www.streamlive.to/view/38768/USA_Network-live-stream-channel-for-free</page>
-</regex>
-<regex>
-<name>xs</name>
-<expres>/(\?xs=.*?)"</expres>
-<page>http://www.streamlive.to/view/38768/USA_Network-live-stream-channel-for-free</page>
-<rawpost>captcha=$doregex[answer]</rawpost>
-<referer>https://www.streamlive.to</referer>
-<cookieJar></cookieJar>
-<ignorecache></ignorecache>
-</regex>
-<regex>
-<name>answer</name>
-<expres>$pyFunction:($doregex[captcha])</expres>
-<page></page>
-</regex>
-<regex>
-<name>captcha</name>
-<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
-<page></page>
-</regex>
-<regex>
-<name>xcaptcha</name>
-<expres>Question: (.*) =</expres>
-<page>http://www.streamlive.to/view/38768/USA_Network-live-stream-channel-for-free</page>
-<referer>http://www.streamlive.to</referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/USA_Network_logo_(2006).svg/2000px-USA_Network_logo_(2006).svg.png</thumbnail>
-</item>
+<title>[COLOR white]News 12 Traffic and Weather Bronx[/COLOR]</title>
+<link>rtmp://fs-b4e3010000000000.id.cdn.cv.net/vxedge/fs-afe3010000000000 playpath=fs-afe3010000000000 swfUrl=http://www.news12.com/player/flowplayer.commercial-3.2.7.swf app=vxedge/fs-afe3010000000000 pageURL=http://www.news12.com/player/flowplayer/.live_player.html?region=NYTW live=true swfVfy=true timeout=10</link>
+<thumbnail>http://traffic.news12.com/_common/cclamp-v1-assets/assets/bronx.news12.com/img/news12/news12-logo-bx_n12.png</thumbnail>
+
+<item>
+<title>[COLOR white]News 12 Brooklyn[/COLOR]</title>
+<link>rtmp://fs-b4e3010000000000.id.cdn.cv.net/vxedge/fs-ace3010000000000 playpath=fs-ace3010000000000 swfUrl=http://www.news12.com/player/flowplayer.commercial-3.2.7.swf app=vxedge/fs-ace3010000000000 pageURL=http://www.news12.com/player/flowplayer/.live_player.html?region=BK live=true swfVfy=true timeout=10</link>
+<thumbnail>http://img2.wikia.nocookie.net/__cb20120801210659/logopedia/images/9/96/News_12_brooklyn_logo.png</thumbnail>
+
+<item>
+<title>[COLOR white]News 12 Traffic and Weather Brooklyn[/COLOR]</title>
+<link>rtmp://fs-b4e3010000000000.id.cdn.cv.net/vxedge/fs-afe3010000000000 playpath=fs-afe3010000000000 swfUrl=http://www.news12.com/player/flowplayer.commercial-3.2.7.swf app=vxedge/fs-afe3010000000000 pageURL=http://www.news12.com/player/flowplayer/.live_player.html?region=NYTW live=true swfVfy=true timeout=10</link>
+<thumbnail>http://img2.wikia.nocookie.net/__cb20120801210659/logopedia/images/9/96/News_12_brooklyn_logo.png</thumbnail>
+
+<item>
+<title>[COLOR white]News 12 Long Island[/COLOR]</title>
+<link>rtmp://fs-b4e3010000000000.id.cdn.cv.net/vxedge/fs-b4e3010000000000 playpath=fs-b4e3010000000000 swfUrl=http://www.news12.com/player/flowplayer.commercial-3.2.7.swf app=vxedge/fs-b4e3010000000000 pageURL=http://www.news12.com/player/flowplayer/.live_player.html?region=LI live=true swfVfy=true timeout=10</link>
+<thumbnail>http://www.darksideproductions.com/img/news12logo.png</thumbnail>
+
+<item>
+<title>[COLOR white]News 12 Traffic and Weather Long Island[/COLOR]</title>
+<link>rtmp://fs-b4e3010000000000.id.cdn.cv.net/vxedge/fs-aee3010000000000 playpath=fs-aee3010000000000 swfUrl=http://www.news12.com/player/flowplayer.commercial-3.2.7.swf app=vxedge/fs-aee3010000000000 pageURL=http://www.news12.com/player/flowplayer/.live_player.html?region=LITW live=true swfVfy=true timeout=10</link>
+<thumbnail>http://www.darksideproductions.com/img/news12logo.png</thumbnail>
+
+<item>
+<title>[COLOR white]News 12 NJ - New Jersey[/COLOR]</title>
+<link>rtmp://fs-b4e3010000000000.id.cdn.cv.net/vxedge/fs-b9e3010000000000 playpath=fs-b9e3010000000000 swfUrl=http://www.news12.com/player/flowplayer.commercial-3.2.7.swf app=vxedge/fs-b9e3010000000000 pageURL=http://www.news12.com/player/flowplayer/live_player.html?region=NJ live=true swfVfy=true timeout=10</link>
+<thumbnail>http://newjersey.news12.com/img/news12/news12-logo-nj_n12.png</thumbnail>
+
+<item>
+<title>[COLOR white]News 12 Traffic and Weather Nj[/COLOR]</title>
+<link>rtmp://fs-b4e3010000000000.id.cdn.cv.net/vxedge/fs-b3e3010000000000 playpath=fs-b3e3010000000000 swfUrl=http://www.news12.com/player/flowplayer.commercial-3.2.7.swf app=vxedge/fs-b3e3010000000000 pageURL=http://www.news12.com/player/flowplayer/live_player.html?region=NJ live=true swfVfy=true timeout=10</link>
+<thumbnail>http://newjersey.news12.com/img/news12/news12-logo-nj_n12.png</thumbnail>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
