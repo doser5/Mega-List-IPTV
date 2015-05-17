@@ -94,36 +94,6 @@
 <thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFLaYuTyc2Uv0XckUIhZA-8hJzaQ7dekUyjyb0C3yDLk7HtjPF</thumbnail>
 
 <item>
-<title>[COLOR white]Fox Action Movies[/COLOR]</title>
-<link>http://200.76.77.237/LIVE/H01/CANAL416/PROFILE03.m3u8?</link>
-<thumbnail>http://www.lyngsat-logo.com/hires/ff/fox_action_oeste.png</thumbnail>
-
-<item>
-<title>[COLOR white]Fox Action Premieum[/COLOR]</title>
-<link>rtmp://cdn.cast-tv.us/stream playpath=z00012.stream swfUrl=http://imveoh.info/player/player.swf pageUrl=http://imveoh.info/embed.php?n=z00010 token=#ed%h0#w@1</link>
-<thumbnail>https://www.indovision.tv/userfiles/image/channel/fox_movies_premium_hd.png</thumbnail>
-
-<item>
-<title>[COLOR white]Fox Action [/COLOR]</title>
-<link>http://103.242.13.66:5000/nn_live.ts?id=foxactionmovie-m-h</link>
-<thumbnail>http://www.lyngsat-logo.com/hires/ff/fox_action_oeste.png</thumbnail>
-
-<item>
-<title>[COLOR white]Fox Life[/COLOR]</title>
-<link>http://200.76.77.237/LIVE/H01/CANAL271/PROFILE03.m3u8?</link>
-<thumbnail>http://upload.wikimedia.org/wikipedia/commons/2/27/Fox_life_it.png</thumbnail>
-
-<item>
-<title>[COLOR white]Fox Movies[/COLOR]</title>
-<link>http://200.76.77.237/LIVE/H01/CANAL417/PROFILE05.m3u8?</link>
-<thumbnail>http://upload.wikimedia.org/wikipedia/commons/2/27/Fox_life_it.png</thumbnail>
-
-<item>
-<title>[COLOR white]Fox Family Movies[/COLOR]</title>
-<link>http://103.242.13.67:5000/nn_live.ts?id=foxmovies-m-h</link>
-<thumbnail>http://upload.wikimedia.org/wikipedia/en/thumb/6/62/Fox_Family_Movies_Logo.svg/220px-Fox_Family_Movies_Logo.svg.png</thumbnail>
-
-<item>
 <title>[COLOR white]MTV[/COLOR]</title>
 <link>rtmp://rtmp.zerocast.tv/live?t=xwqRhn5dC playpath=mtv swfUrl=http://cdn.ibrod.tv/player.swf flashver=WIN\202012,0,0,77 timeout=15 token=8964316ec8772dfa live=1swfVfy=1 pageUrl=http://zerocast.tv/</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/7/76/MTV_Logo.svg/2000px-MTV_Logo.svg.png</thumbnail>
@@ -299,13 +269,13 @@
 
 <item>
 <title>[COLOR white]SyFy[/COLOR]</title>
-<link>rtmp://rtmp.zerocast.tv:1935/live?t=5557ff4c0767f/ playpath>syfy swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://zerocast.tv/embed.php?a=16&id=&width=620&height=470&autostart=true&strech= token=OOG17t.x#K9Vh#|</link>
+<link>rtmp://rtmp.zerocast.tv/live?t=xwqRhn5dC playpath=syfy swfUrl=http://cdn.ibrod.tv/player.swf flashver=WIN\202012,0,0,77 timeout=15 live=1swfVfy=1 pageUrl=http://zerocast.tv/ token=8964316ec8772dfa</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/a/ab/Syfylogo.png</thumbnail>
 
 <item>
 <title>[COLOR white]TBS[/COLOR]</title>
 <link>rtmp://178.18.31.56:443/liverepeater playpath=191916 swfUrl=http://bernardotv.club/playertest.swf pageUrl=http://biggestplayer.me/stream.php?id=191916&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch timeout=15</link>
-<thumbnail>http://img3.wikia.nocookie.net/__cb20091116073610/logopedia/images/d/df/TBS_logo_2005.svg</thumbnail>
+<thumbnail>http://img2.wikia.nocookie.net/__cb20141030215616/logopedia/images/8/83/TBS_HD.png</thumbnail>
 
 <item>
 <title>[COLOR white]TNT[/COLOR]</title>
