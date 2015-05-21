@@ -787,102 +787,171 @@
 <link>http://s1.wssiptv.com/live/WSSVIP/IWN7jjsoiu/136.ts?freeiptvlinks.com</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/tt/tsn_alternate.png</thumbnail>
 
+
 <item>
-<title>[COLOR white]SKY SPORTS 1(P) HD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/WSSVIP/IWN7jjsoiu/1.ts?freeiptvlinks.com</link>
+<title>SKY SPORTS 1</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
+<regex>
+<name>path</name>
+<page>http://www.streamlive.to/view/68713/Sky_Sport_1_%28HD%29-live-stream-channel-for-free</page>
+<expres>file: "(.*).flv</expres>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token":"([^"]*)</expres>
+<page>$doregex[tokpg]</page>
+<referer>https://www.streamlive.to</referer>
+</regex>
+<regex>
+<name>tokpg</name>
+<expres>getJSON\("([^"]*)</expres>
+<page>http://www.streamlive.to/view/68713/Sky_Sport_1_%28HD%29-live-stream-channel-for-free</page>
+</regex>
+<regex>
+<name>xs</name>
+<expres>/(\?xs=.*?)"</expres>
+<page>http://www.streamlive.to/view/68713/Sky_Sport_1_%28HD%29-live-stream-channel-for-free</page>
+<rawpost>captcha=$doregex[answer]</rawpost>
+<referer>https://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+<ignorecache></ignorecache>
+</regex>
+<regex>
+<name>answer</name>
+<expres>$pyFunction:($doregex[captcha])</expres>
+<page></page>
+</regex>
+<regex>
+<name>captcha</name>
+<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+<page></page>
+</regex>
+<regex>
+<name>xcaptcha</name>
+<expres>Question: (.*) =</expres>
+<page>http://www.streamlive.to/view/68713/Sky_Sport_1_%28HD%29-live-stream-channel-for-free</page>
+<referer>http://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+</regex>
 <thumbnail>http://livetvscreen.com/wp-content/uploads/2012/09/Sky-Sports-1-HD.jpg</thumbnail>
+</item>
+
 
 <item>
-<title>[COLOR white]SKY SPORTS 1(P) SD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/WSSVIP/IWN7jjsoiu/140.ts?freeiptvlinks.com</link>
+<title>SKY SPORTS 1 UPDATED</title>
+<link>rtmpe://46.246.124.87:1935/livedge playpath=sskys1 pageUrl=http://www.hdcast.org/ token=Fo5_n0w?U.rA6l3-70w47ch</link>
 <thumbnail>http://livetvscreen.com/wp-content/uploads/2012/09/Sky-Sports-1-HD.jpg</thumbnail>
+<fanart>http://excelsiorblackpool.com/wp-content/uploads/2013/06/Arsenal-Wallpaper.jpg</fanart>
+</item>
 
 <item>
-<title>[COLOR white]SKY SPORTS 2(P) HD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/WSSVIP/IWN7jjsoiu/2.ts?freeiptvlinks.com</link>
+<title>SKY SPORTS 2</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
+<regex>
+<name>path</name>
+<page>http://www.streamlive.to/view/68424/Sky_Sport_2_%28HD%29-live-stream-channel-for-free</page>
+<expres>file: "(.*).flv</expres>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token":"([^"]*)</expres>
+<page>$doregex[tokpg]</page>
+<referer>https://www.streamlive.to</referer>
+</regex>
+<regex>
+<name>tokpg</name>
+<expres>getJSON\("([^"]*)</expres>
+<page>http://www.streamlive.to/view/68424/Sky_Sport_2_%28HD%29-live-stream-channel-for-free</page>
+</regex>
+<regex>
+<name>xs</name>
+<expres>/(\?xs=.*?)"</expres>
+<page>http://www.streamlive.to/view/68424/Sky_Sport_2_%28HD%29-live-stream-channel-for-free</page>
+<rawpost>captcha=$doregex[answer]</rawpost>
+<referer>https://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+<ignorecache></ignorecache>
+</regex>
+<regex>
+<name>answer</name>
+<expres>$pyFunction:($doregex[captcha])</expres>
+<page></page>
+</regex>
+<regex>
+<name>captcha</name>
+<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+<page></page>
+</regex>
+<regex>
+<name>xcaptcha</name>
+<expres>Question: (.*) =</expres>
+<page>http://www.streamlive.to/view/68424/Sky_Sport_2_%28HD%29-live-stream-channel-for-free</page>
+<referer>http://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+</regex>
 <thumbnail>http://4.bp.blogspot.com/-jYg8ovLGy-g/VAW6cF2XvII/AAAAAAAAFUc/PuxutEG0yto/s1600/sky%2Bsports%2B2%2Blive%2Bmykora.png</thumbnail>
+</item>
 
 <item>
-<title>[COLOR white]SKY SPORTS 2(P) SD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/WSSVIP/IWN7jjsoiu/141.ts?freeiptvlinks.com</link>
-<thumbnail>http://4.bp.blogspot.com/-jYg8ovLGy-g/VAW6cF2XvII/AAAAAAAAFUc/PuxutEG0yto/s1600/sky%2Bsports%2B2%2Blive%2Bmykora.png</thumbnail>
+<title>SKY SPORTS 2</title>
+<link>rtmpe://46.246.124.87:1935/livedge playpath=sskys2 pageUrl=http://www.hdcast.org/ token=Fo5_n0w?U.rA6l3-70w47ch</link>
+<thumbnail>http://epg.serbianforum.org/logo_znaci/Sky%20Sports%202%20UK.png</thumbnail>
+<fanart>http://4.bp.blogspot.com/-jYg8ovLGy-g/VAW6cF2XvII/AAAAAAAAFUc/PuxutEG0yto/s1600/sky%2Bsports%2B2%2Blive%2Bmykora.png</fanart>
+</item>
 
 <item>
-<title>[COLOR white]SKY SPORTS 3(P) HD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/WSSVIP/IWN7jjsoiu/3.ts?freeiptvlinks.com</link>
+<title>SKY SPORTS 3</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
+<regex>
+<name>path</name>
+<page>http://www.streamlive.to/view/68714/Sky_Sport_3_%28HD%29-live-stream-channel-for-free</page>
+<expres>file: "(.*).flv</expres>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token":"([^"]*)</expres>
+<page>$doregex[tokpg]</page>
+<referer>https://www.streamlive.to</referer>
+</regex>
+<regex>
+<name>tokpg</name>
+<expres>getJSON\("([^"]*)</expres>
+<page>http://www.streamlive.to/view/68714/Sky_Sport_3_%28HD%29-live-stream-channel-for-free</page>
+</regex>
+<regex>
+<name>xs</name>
+<expres>/(\?xs=.*?)"</expres>
+<page>http://www.streamlive.to/view/68714/Sky_Sport_3_%28HD%29-live-stream-channel-for-free</page>
+<rawpost>captcha=$doregex[answer]</rawpost>
+<referer>https://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+<ignorecache></ignorecache>
+</regex>
+<regex>
+<name>answer</name>
+<expres>$pyFunction:($doregex[captcha])</expres>
+<page></page>
+</regex>
+<regex>
+<name>captcha</name>
+<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+<page></page>
+</regex>
+<regex>
+<name>xcaptcha</name>
+<expres>Question: (.*) =</expres>
+<page>http://www.streamlive.to/view/68714/Sky_Sport_3_%28HD%29-live-stream-channel-for-free</page>
+<referer>http://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+</regex>
 <thumbnail>http://liveball.tv/wp-content/uploads/2015/04/Sky_Sports_3_2010.png</thumbnail>
+</item>
 
 <item>
-<title>[COLOR white]SKY SPORTS 3(P) SD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/WSSVIP/IWN7jjsoiu/142.ts?freeiptvlinks.com</link>
+<title>SKY SPORTS 3</title>
+<link>rtmpe://46.246.124.87:1935/livedge playpath=sskys3 pageUrl=http://www.hdcast.org/ token=Fo5_n0w?U.rA6l3-70w47ch</link>
 <thumbnail>http://liveball.tv/wp-content/uploads/2015/04/Sky_Sports_3_2010.png</thumbnail>
-
-<item>
-<title>[COLOR white]SKY SPORTS 4(P) HD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/WSSVIP/IWN7jjsoiu/4.ts?freeiptvlinks.com</link>
-<thumbnail>http://www.streamhunter.co/wp-content/uploads/2013/05/Watch-Sky-Sports-4-HD-Live.png</thumbnail>
-
-<item>
-<title>[COLOR white]SKY SPORTS 4(P) SD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/WSSVIP/IWN7jjsoiu/143.ts?freeiptvlinks.com</link>
-<thumbnail>http://www.streamhunter.co/wp-content/uploads/2013/05/Watch-Sky-Sports-4-HD-Live.png</thumbnail>
-<item>
-
-<item>
-<title>[COLOR white]SKY SPORTS 5(P) HD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/WSSVIP/IWN7jjsoiu/5.ts?freeiptvlinks.com</link>
-<thumbnail>http://www1.skysports.com/core/img/channels/Sky-Sports-5-Logo.png</thumbnail>
-<item>
-
-<item>
-<title>[COLOR white]SKY SPORTS 5(P) SD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/WSSVIP/IWN7jjsoiu/144.ts?freeiptvlinks.com</link>
-<thumbnail>http://www1.skysports.com/core/img/channels/Sky-Sports-5-Logo.png</thumbnail>
-<item>
-
-<item>
-<title>[COLOR white]SKY SPORTS F1(P) HD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/WSSVIP/IWN7jjsoiu/6.ts?freeiptvlinks.com</link>
-<thumbnail>http://vignette3.wikia.nocookie.net/f1wikia/images/7/77/SkySportsF1.png/revision/latest?cb=20140320200040</thumbnail>
-<item>
-
-<item>
-<title>[COLOR white]SKY SPORTS F1(P) SD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/WSSVIP/IWN7jjsoiu/145.ts?freeiptvlinks.com</link>
-<thumbnail>http://vignette3.wikia.nocookie.net/f1wikia/images/7/77/SkySportsF1.png/revision/latest?cb=20140320200040</thumbnail>
-<item>
-
-<item>
-<title>[COLOR white]SKY SPORTS NEWS(P) HD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/WSSVIP/IWN7jjsoiu/7.ts?freeiptvlinks.com</link>
-<thumbnail>http://i30.tinypic.com/25zmb69.jpg</thumbnail>
-<item>
-
-<item>
-<title>[COLOR white]SKY SPORTS NEWS(P) SD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/WSSVIP/IWN7jjsoiu/146.ts?freeiptvlinks.com</link>
-<thumbnail>http://i30.tinypic.com/25zmb69.jpg</thumbnail>
-<item>
-
-<item>
-<title>[COLOR white]SENTENA IRELAND(P) SD [COLOR gray](Updated 5/20/15 :Now Live Sports)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/WSSVIP/IWN7jjsoiu/8.ts?freeiptvlinks.com</link>
-<thumbnail>http://www.magnet.ie/wp-content/uploads/2011/12/Setanta-Ireland.jpg</thumbnail>
-
-<item>
-<title>[COLOR white]SENTENA IRELAND(P) SD [COLOR gray](Updated 5/20/15 :Now Live Sports)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/WSSVIP/IWN7jjsoiu/8.ts?freeiptvlinks.com</link>
-<thumbnail>http://www.magnet.ie/wp-content/uploads/2011/12/Setanta-Ireland.jpg</thumbnail>
-
-<item>
-<title>[COLOR white]SPORTS NET 360(P) HD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
-<link>http://nlds187.cdnak.neulion.com/nlds/sportsnetnow/sn_360/as/live/sn_360_hd_ipad.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/hires/ss/sportsnet_360.png</thumbnail>
-
-<item>
-<title>[COLOR white]SPORTS NET ONE(P) HD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/WSSVIP/IWN7jjsoiu/75.ts?freeiptvlinks.com</link>
-<thumbnail>http://www.tvqc.com/wp-content/uploads/2012/02/sportsnet_one.png</thumbnail>
+</item>
 
 <item>
 <title>[COLOR white]SPORTS NET ONE(P) SD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
@@ -895,9 +964,29 @@
 <thumbnail>http://www.lyngsat-logo.com/hires/ss/sportsnet_ontario.png</thumbnail>
 
 <item>
-<title>[COLOR white]SPORTS NET WORLD(P) HD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/WSSVIP/IWN7jjsoiu/76.ts?freeiptvlinks.com</link>
-<thumbnail>https://lh4.ggpht.com/5_w-sBZYmw6sA7FX042CkXySvb3FW3ex681Jg679Mi5_GCoKnHaJYIwNayea2sjf7g=w300</thumbnail>
+<title>[COLOR white]TSN 1(P) HD [COLOR gray](Updated 5/21/15 :Now Local Programming)[/COLOR]</title>
+<link>http://5.39.70.216/live/WSSVIP/LOL/34.ts?12345678</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/tt/tsn_alternate.png</thumbnail>
+
+<item>
+<title>[COLOR white]TSN 2(P) HD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
+<link>http://5.39.70.216/live/WSSVIP/LOL/35.ts?12345678</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/tt/tsn_alternate.png</thumbnail>
+
+<item>
+<title>[COLOR white]TSN 3(P) HD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
+<link>http://5.39.70.216/live/WSSVIP/LOL/135.ts?12345678</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/tt/tsn_alternate.png</thumbnail>
+
+<item>
+<title>[COLOR white]TSN new 4(P) HD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
+<link>http://5.39.70.216/live/WSSVIP/LOL/136.ts?12345678</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/tt/tsn_alternate.png</thumbnail>
+
+<item>
+<title>[COLOR white]TSN 5(P) HD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
+<link>http://5.39.70.216/live/WSSVIP/LOL/137.ts?12345678</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/tt/tsn_alternate.png</thumbnail>
 
 <item>
 <title>[COLOR white]NBC SPORTS NETWORK(P) HD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
