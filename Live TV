@@ -380,6 +380,11 @@
 </item>
 
 <item>
+<title>[COLOR white]DISNEY CHANNEL(P) HD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
+<link>rtmp://stream.connectcast.tv/live/mp4:CC-F91655E4-277C-E23A-B447-5E1B21E83E21-31816</link>
+<thumbnail>http://img3.wikia.nocookie.net/__cb20140522224840/logopedia/images/8/87/Disney_Channel_2014.png</thumbnail>
+
+<item>
 <title>[COLOR white]DISNEY XD(P) SD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/70698/Disney_XD_%5BHD%5D-live-stream-channel-for-free</link>
 <regex>
@@ -880,6 +885,11 @@
 </regex>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/7/76/MTV_Logo.svg/2000px-MTV_Logo.svg.png</thumbnail>
 </item>
+
+<item>
+<title>[COLOR white]MTV(P) HD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
+<link>rtmp://stream.connectcast.tv/live/mp4:CC-F91655E4-277C-E23A-B447-5E1B21E83E21-31816</link>
+<thumbnail>http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&profile=430&lan=2&rows=40&f=.m3u8</thumbnail>
 
 <item>
 <title>[COLOR white]NBC(P) SD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
