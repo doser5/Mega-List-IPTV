@@ -888,8 +888,8 @@
 
 <item>
 <title>[COLOR white]MTV(P) HD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
-<link>rtmp://stream.connectcast.tv/live/mp4:CC-F91655E4-277C-E23A-B447-5E1B21E83E21-31816</link>
-<thumbnail>http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&profile=430&lan=2&rows=40&f=.m3u8</thumbnail>
+<link>http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&profile=430&lan=2&rows=40&f=.m3u8</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/7/76/MTV_Logo.svg/2000px-MTV_Logo.svg.png</thumbnail>
 
 <item>
 <title>[COLOR white]NBC(P) SD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
