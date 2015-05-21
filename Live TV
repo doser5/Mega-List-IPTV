@@ -2101,6 +2101,16 @@
 <thumbnail>http://www.tvqc.com/wp-content/uploads/2012/02/sportsnet_one.png</thumbnail>
 
 <item>
+<title>[COLOR white]SPORTS NET ONE(P) SD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
+<link>rtmp://31.220.0.195:80/live/ playpath=sportsnetw token=%Zrey(nKa@#Z swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=13 pageUrl=http://reytv.co/</link>
+<thumbnail>http://www.tvqc.com/wp-content/uploads/2012/02/sportsnet_one.png</thumbnail>
+
+<item>
+<title>[COLOR white]SPORTSNET ONTARIO(P) SD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
+<linkrtmp://31.220.0.195:80/live/ playpath=sno token=%Zrey(nKa@#Z swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=13 pageUrl=http://reytv.co/</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/ss/sportsnet_ontario.png</thumbnail>
+
+<item>
 <title>[COLOR white]SPORTS NET WORLD(P) HD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
 <link>http://s1.wssiptv.com/live/WSSVIP/IWN7jjsoiu/76.ts?freeiptvlinks.com</link>
 <thumbnail>https://lh4.ggpht.com/5_w-sBZYmw6sA7FX042CkXySvb3FW3ex681Jg679Mi5_GCoKnHaJYIwNayea2sjf7g=w300</thumbnail>
