@@ -1,0 +1,57 @@
+<item>
+<title>[COLOR green]Sky Sports 1 Section Links (Backup)[/COLOR]</title>
+<link>http://s1.wssiptv.com/live/VIPWSS/Pjwusoiu8/110.ts?freeiptvlinks.com</link>
+
+<item>
+<title>[COLOR white]SKY SPORTS 1 (P) SD - Link 1[COLOR gray](Now : Live Sports (Click 2-3 times)[/COLOR]</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/70643/Sky_Sports_1-live-stream-channel-for-free</link>
+<regex>
+<name>path</name>
+<page>http://www.streamlive.to/view/70643/Sky_Sports_1-live-stream-channel-for-free</page>
+<expres>file: "(.*).flv</expres>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token":"([^"]*)</expres>
+<page>$doregex[tokpg]</page>
+<referer>https://www.streamlive.to</referer>
+</regex>
+<regex>
+<name>tokpg</name>
+<expres>getJSON\("([^"]*)</expres>
+<page>http://www.streamlive.to/view/70643/Sky_Sports_1-live-stream-channel-for-free</page>
+</regex>
+<regex>
+<name>xs</name>
+<expres>/(\?xs=.*?)"</expres>
+<page>http://www.streamlive.to/view/70643/Sky_Sports_1-live-stream-channel-for-free</page>
+<rawpost>captcha=$doregex[answer]</rawpost>
+<referer>https://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+<ignorecache></ignorecache>
+</regex>
+<regex>
+<name>answer</name>
+<expres>$pyFunction:($doregex[captcha])</expres>
+<page></page>
+</regex>
+<regex>
+<name>captcha</name>
+<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+<page></page>
+</regex>
+<regex>
+<name>xcaptcha</name>
+<expres>Question: (.*) =</expres>
+<page>http://www.streamlive.to/view/70643/Sky_Sports_1-live-stream-channel-for-free</page>
+<referer>http://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://livetvscreen.com/wp-content/uploads/2012/09/Sky-Sports-1-HD.jpg</thumbnail>
+</item>
+
+<item>
+<title>SKY SPORTS 1</title>
+<link>rtmp://178.18.31.52:443/liverepeater playpath=192183 swfUrl=http://bernardotv.club/gofuckyourself.swf live=1 pageUrl=http://biggestplayer.me/streamcr.php?id=191781&width=620&height=490 token=#atd%#$ZH</link>
+<thumbnail>http://livetvscreen.com/wp-content/uploads/2012/09/Sky-Sports-1-HD.jpg</thumbnail>
+</item>
