@@ -1,253 +1,68 @@
-<item>
-<fanart>http://imagizer.imageshack.us/a/img661/8098/tEIDPa.jpg</fanart>
-</item>
+ <fanart>http://imagizer.imageshack.us/a/img661/8098/tEIDPa.jpg</fanart>
+ </item>
+ 
+<channels>
 
-<item>
-<title>[COLOR red]HUGE UPDATE COMING SOON SORRY FOR THE WAIT JUST KEEP WAITING :)[/COLOR]</title>
-<link>rtmp://178.18.31.61:443/liverepeater playpath=191903 swfUrl=http://bernardotv.club/gofuckyourself.swf pageUrl=http://biggestplayer.me/index.php?id=191881&width=620&height=470 token=#atd%#$ZH timeout=15</link>
-
-<item>
-<title>[COLOR red]ITS GOING TO BE HUGE AND YOU'LL LOVE IT :)[/COLOR]</title>
-<link>rtmp://178.18.31.61:443/liverepeater playpath=191903 swfUrl=http://bernardotv.club/gofuckyourself.swf pageUrl=http://biggestplayer.me/index.php?id=191881&width=620&height=470 token=#atd%#$ZH timeout=15</link>
-
-<item>
-<title>[COLOR white]DONATE TO naseera.gardezi@rbc.com to keep the project up :)[/COLOR]</title>
-<link>rtmp://178.18.31.61:443/liverepeater playpath=191903 swfUrl=http://bernardotv.club/gofuckyourself.swf pageUrl=http://biggestplayer.me/index.php?id=191881&width=620&height=470 token=#atd%#$ZH timeout=15</link>
-<thumbnail>https://lh5.googleusercontent.com/-2HdV--lLYvM/VVPnDKuDGDI/AAAAAAAAABY/evnFkJ09jp0/w717-h718-no/donating..jpg</thumbnail>
-
-<item>
-<title>[COLOR skyblue]UK ENTERTAINMENT PACKAGE[/COLOR]</title>
-<link>rtmp://178.18.31.61:443/liverepeater playpath=191903 swfUrl=http://bernardotv.club/gofuckyourself.swf pageUrl=http://biggestplayer.me/index.php?id=191881&width=620&height=470 token=#atd%#$ZH timeout=15</link>
-
-<item>
-<title>[COLOR white]OWN NETWORK(P) SD [COLOR gray](Updated 5/20/15 :Now Local Programming)[/COLOR]</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/53857/OWN_-_Oprah_Winfrey_Network_%28HD%29-live-stream-channel-for-free</link>
-<regex>
-<name>path</name>
-<page>http://www.streamlive.to/view/53857/OWN_-_Oprah_Winfrey_Network_%28HD%29-live-stream-channel-for-free</page>
-<expres>file: "(.*).flv</expres>
-</regex>
-<regex>
-<name>tok</name>
-<expres>token":"([^"]*)</expres>
-<page>$doregex[tokpg]</page>
-<referer>https://www.streamlive.to</referer>
-</regex>
-<regex>
-<name>tokpg</name>
-<expres>getJSON\("([^"]*)</expres>
-<page>http://www.streamlive.to/view/53857/OWN_-_Oprah_Winfrey_Network_%28HD%29-live-stream-channel-for-free</page>
-</regex>
-<regex>
-<name>xs</name>
-<expres>/(\?xs=.*?)"</expres>
-<page>http://www.streamlive.to/view/53857/OWN_-_Oprah_Winfrey_Network_%28HD%29-live-stream-channel-for-free</page>
-<rawpost>captcha=$doregex[answer]</rawpost>
-<referer>https://www.streamlive.to</referer>
-<cookieJar></cookieJar>
-<ignorecache></ignorecache>
-</regex>
-<regex>
-<name>answer</name>
-<expres>$pyFunction:($doregex[captcha])</expres>
-<page></page>
-</regex>
-<regex>
-<name>captcha</name>
-<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
-<page></page>
-</regex>
-<regex>
-<name>xcaptcha</name>
-<expres>Question: (.*) =</expres>
-<page>http://www.streamlive.to/view/53857/OWN_-_Oprah_Winfrey_Network_%28HD%29-live-stream-channel-for-free</page>
-<referer>http://www.streamlive.to</referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://www.dafont.com/forum/attach/orig/4/4/443960.png</thumbnail>
-</item>
-
-<item>
-<title>[COLOR white]BBC ONE(P) HD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/VIPWSS/Pjwusoiu8/101.ts?freeiptvlinks.com</link>
-<thumbnail>http://img3.wikia.nocookie.net/__cb20130401122536/logopedia/images/f/ff/BBC_One_2006_logo.png</thumbnail>
-
-<item>
-<title>[COLOR white]BBC TWO(P) HD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/VIPWSS/Pjwusoiu8/5.ts?</link>
-
-<item>
-<title>[COLOR white]BBC THREE(P) HD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/VIPWSS/Pjwusoiu8/100.ts?freeiptvlinks.com</link>
-<thumbnail>http://upload.wikimedia.org/wikipedia/en/thumb/9/92/BBC_Three.svg/1280px-BBC_Three.svg.png</thumbnail>
-
-<item>
-<title>[COLOR white]BBC FOUR(P) HD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/VIPWSS/Pjwusoiu8/99.ts?freeiptvlinks.com</link>
-<thumbnail>http://upload.wikimedia.org/wikipedia/en/thumb/5/58/BBC_Four_HD_Logo.svg/1280px-BBC_Four_HD_Logo.svg.png</thumbnail>
-
-<item>
-<title>[COLOR white]CHANNEL 4(P) SD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<ftv>2</ftv>
-<thumbnail>http://upload.wikimedia.org/wikipedia/fr/thumb/b/bf/Channel_4old.svg/799px-Channel_4old.svg.png</thumbnail>
-</item>
-
-<item>
-<title>[COLOR white]CHANNEL 5(P) SD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<ftv>22</ftv>
-<thumbnail>http://1.bp.blogspot.com/-pLeysfuqEFY/TWFV7Sy-RAI/AAAAAAAAAO8/6s5RwNhc_Lc/s1600/Channel_5_logo_2011_pre-launch.png</thumbnail>
-</item>
-
-<item>
-<title>[COLOR white]CBS DRAMA (P) SD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<ftv>1805</ftv>
-<thumbnail>http://upload.wikimedia.org/wikipedia/en/archive/8/80/20130416074845!CBS_Reality.png</thumbnail>
-</item>
-
-<item>
-<title>[COLOR white]CBS REALITY(P) SD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<ftv>1808</ftv>
-<thumbnail>http://upload.wikimedia.org/wikipedia/en/archive/8/80/20130416074845!CBS_Reality.png</thumbnail>
-</item>
-
-<item>
-<title>[COLOR white]CBS REALITY +1(P) SD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<ftv>1811</ftv>
-<thumbnail>http://upload.wikimedia.org/wikipedia/en/archive/8/80/20130416074845!CBS_Reality.png</thumbnail>
-</item>
-
-<item>
-<title>[COLOR white]DAVE(P) HD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<ftv>370</ftv>
-<thumbnail>http://www.lyngsat-logo.com/hires/dd/dave_uktv.png</thumbnail>
-</item>
-
-<item>
-<title>[COLOR white]E4(P) SD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<ftv>65</ftv>
-<thumbnail>http://img2.wikia.nocookie.net/__cb20101028165636/bigbrotheruk/images/d/d8/E4-logo.png</thumbnail>
-</item>
-
-<item>
-<title>[COLOR white]FILM4(P) SD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<ftv>13</ftv>
-<thumbnail>https://filmdoctor.files.wordpress.com/2013/07/film4-logo.jpg</thumbnail>
-</item>
-
-<item>
-<title>[COLOR white]FOOD NETWORK UK(P) SD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<ftv>20</ftv>
-<thumbnail>http://img1.wikia.nocookie.net/__cb20110408023419/logopedia/images/c/c9/Food_Network_HD.png</thumbnail>
-</item>
-
-<item>
-<title>[COLOR white]FIVE UK(P) SD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<ftv>851</ftv>
-<thumbnail>http://www.tv-live.org.uk/media/resources/five2002.png</thumbnail>
-</item>
-
-<item>
-<title>[COLOR white]5USA(P) SD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<ftv>845</ftv>
-<thumbnail>http://4.bp.blogspot.com/-b9d64ZiKNzc/TWFQyC7Ni5I/AAAAAAAAAO0/_RcehLLq9NA/s1600/5USA_logo_2011.png</thumbnail>
-</item>
-
-<item>
-<title>[COLOR white]HORROR CHANNEL(P) SD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<link>http://live.zoptv.com/filmon/master.m3u8?id=836</link>
-<thumbnail>http://zombiehamster.com/wp-content/uploads/2013/10/horror-channel.jpg</thumbnail>
-</item>
+<channel>
+      <name>[COLOR white]M[/COLOR][COLOR white]ega All Channels[/COLOR]</name>
+  <thumbnail>http://i.imgur.com/5dRteFS.png</thumbnail>
+<fanart>http://i.imgur.com/ajlbqX5.jpg</fanart>
+<link>http://ignoreme</link>
+  <externallink>https://raw.githubusercontent.com/doser5/Mega-List-IPTV/master/MegaAllChannels.html</externallink>
+<info>[COLOR white]Updated 03/05/2015 @ 00.45am[/COLOR]</info>
+</channel>
+ </channels>
 
 
-<item>
-<title>[COLOR white]ITV 1 UK(P) HD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/VIPWSS/Pjwusoiu8/103.ts?freeiptvlinks.com</link>
-<thumbnail>http://i2.cdnds.net/12/46/618x314/media_new_itv_logo.jpg</thumbnail>
-</item>
+<channel>
+      <name>[COLOR white]M[/COLOR][COLOR white]ega Sport Section[/COLOR]</name>
+  <thumbnail>http://i.imgur.com/BCy5HiV.png</thumbnail>
+<fanart>http://hdnextyear.com/wp-content/uploads/2015/02/soccer-fans-hd-desktop-wallpaper-sports-images-soccer-wallpaper.jpg</fanart>
+<link>http://ignoreme</link>
+  <externallink>https://raw.githubusercontent.com/doser5/Mega-List-IPTV/master/MegaSports.html</externallink>
+<info>[COLOR white]Updated 03/05/2015 @ 00.45am[/COLOR]</info>
+</channel>
+ </channels>
 
-<item>
-<title>[COLOR white]ITV 2 UK(P) HD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/VIPWSS/Pjwusoiu8/104.ts?freeiptvlinks.com</link>
-<thumbnail>http://i2.cdnds.net/12/46/618x314/media_new_itv_logo.jpg</thumbnail>
-</item>
-
-<item>
-<title>[COLOR white]ITV 3 UK(P) HD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/VIPWSS/Pjwusoiu8/105.ts?freeiptvlinks.com</link>
-<thumbnail>http://s1.wssiptv.com/live/VIPWSS/Pjwusoiu8/106.ts?freeiptvlinks.com</thumbnail>
-</item>
-
-<item>
-<title>[COLOR white]ITV 4 UK(P) HD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<link>http://s1.wssiptv.com/live/VIPWSS/Pjwusoiu8/105.ts?freeiptvlinks.com</link>
-<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/ITV2_logo_2013.svg/200px-ITV2_logo_2013.svg.png</thumbnail>
-</item>
-
-<item>
-<title>[COLOR white]ITV BE UK(P) HD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<link>http://live.zoptv.com/filmon/master.m3u8?id=3211</link>
-<thumbnail>http://cdn.itv.com/uploads/editor/bZVc3WPRwPw_5XHZbd303TkEg_QMQlrrA-A5ENe52SU.jpg</thumbnail>
-</item>
-
-<item>
-<title>[COLOR white]MORE 4UK(P) SD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<ftv>97</ftv>
-<thumbnail>http://upload.wikimedia.org/wikipedia/en/thumb/7/79/More4_logo.svg/932px-More4_logo.svg.png</thumbnail>
-</item>
-
-<item>
-<title>[COLOR white]REALLY UK(P) SD [COLOR gray](Updated 5/20/15 :NEWS/TV/MOVIES)[/COLOR]</title>
-<ftv>372</ftv>
-<thumbnail>http://really.uktv.co.uk/static/img/default_image.jpg</thumbnail>
-</item>
-
-<item>
-<title>[COLOR skyblue]HINDI/PAKISTAN PACKAGE[/COLOR]</title>
-<link>rtmp://178.18.31.61:443/liverepeater playpath=191903 swfUrl=http://bernardotv.club/gofuckyourself.swf pageUrl=http://biggestplayer.me/index.php?id=191881&width=620&height=470 token=#atd%#$ZH timeout=15</link>
-<thumbnail>http://img3.wikia.nocookie.net/__cb20130819224742/logopedia/images/archive/4/48/20150224000537!ABC_7_Chicago_2013_logo.png</thumbnail>
-
-<item>
-<title>[COLOR white]ARY DIGITAL(P) SD [COLOR gray](Updated 5/20/15 :DRAMA/ENTERTAINMENT/MOVIES)[/COLOR]</title>
-<link>rtmp://93.115.85.17:1935/ARYDIGITAL/ playpath=myStream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://www.arydigital.tv/live/digitallive.html token=OOG17t.x#K9Vh#|</link>
-<thumbnail>http://www.lyngsat-logo.com/hires/aa/ary_digital_asia.png</thumbnail>
-
-<item>
-<title>[COLOR white]ARY NEWS(P) SD [COLOR gray](Updated 5/20/15 :NEWS/WORLDWIDE/PAKISTAN)[/COLOR]</title>
-<link>rtmp://109.163.232.58:1935/ARYNEWS/ playpath=myStream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://live.arynews.tv/#menu-item-24871 token=OOG17t.x#K9Vh#|</link>
-<thumbnail>http://img4.wikia.nocookie.net/__cb20111001144016/logopedia/images/f/ff/ARY_News.png</thumbnail>
-<item>
-<title>[COLOR white]ARY QTV(P) SD [COLOR gray](Updated 5/20/15 :PAKISTAN/DRAMAS/MOVIES)[/COLOR]</title>
-<link>rtmp://93.115.85.17:1935/ARYQTV/ playpath=myStream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://live.aryqtv.tv/ token=OOG17t.x#K9Vh#|</link>
-<thumbnail>http://www.samistream.com/thumbs/aryqtv.jpg</thumbnail>
-
-<item>
-<title>[COLOR white]ARY ZINDIGAI(P) SD [COLOR gray](Updated 5/20/15 :DRAMAS/MOVIES/MUSIC)[/COLOR]</title>
-<link>rtmp://93.115.85.17:1935/ARYZINDAGI/ playpath=myStream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://aryzindagi.tv/live/ token=OOG17t.x#K9Vh#|</link>
-<thumbnail>https://yt3.ggpht.com/-vPA0XXNmauQ/AAAAAAAAAAI/AAAAAAAAAAA/Gxgx00oAgqA/s900-c-k-no/photo.jpg</thumbnail>
-
-<item>
-<title>[COLOR white]ZOOM TV(P) SD [COLOR gray](Updated 5/20/15 :DRAMAS/MOVIES/MUSIC)[/COLOR]</title>
-<link>http://ongoingevents-f.akamaihd.net/ongoing_1_1@51891?v=2.4.5&fp=WIN%2012,0,0,77&r=OQXTD&g=NIEIQJICEBLW</link>
-<thumbnail>http://www.lyngsat-logo.com/hires/zz/zoom_tv_in.png</thumbnail>
-
-<item>
-<title>[COLOR white]ZEE TV(P) SD [COLOR gray](Updated 5/20/15 :DRAMAS/MOVIES/MUSIC)[/COLOR]</title>
-<link>http://www.youtube.com/apiplayer?version=3&modestbranding=1</link>
-<thumbnail>http://img3.wikia.nocookie.net/__cb20110926114755/logopedia/images/3/38/Zee_TV_2011.png</thumbnail>
-
-<item>
-<title>[COLOR white]ZEE MUSIC ZING(P) SD [COLOR gray](Updated 5/20/15 :DRAMAS/MOVIES/MUSIC)[/COLOR]</title>
-<link>http://46.249.213.87/iPhone/broadcast/zing-tablet.3gp/zing-tablet.3gp-mr648k.m3u8?trackingid=3171370000&os=desktop</link>
-<thumbnail>http://www.ethnicchannels.com/wp-content/files_mf/zinglogo49.png</thumbnail>
+<channel>
+      <name>[COLOR white]M[/COLOR][COLOR white]ega UK Section[/COLOR]</name>
+  <thumbnail>http://i.imgur.com/0zm1j2f.png</thumbnail>
+<fanart>http://www.icicp.org/wp-content/uploads/2014/02/uk-flag.jpg</fanart>
+<link>http://ignoreme</link>
+  <externallink>https://raw.githubusercontent.com/doser5/Mega-List-IPTV/master/MegaUK.html</externallink>
+<info>[COLOR white]Updated 03/05/2015 @ 00.45am[/COLOR]</info>
+</channel>
+ </channels>
 
 
+<channel>
+      <name>[COLOR white]M[/COLOR][COLOR white]ovie of The Week[/COLOR]</name>
+  <thumbnail>http://p3cdn4static.sharpschool.com/UserFiles/Servers/Server_2359291/Image/Movies%20and%20Popcorn.png</thumbnail>
+<fanart>http://www.hittingthestage.com/wp-content/uploads/2013/12/movie_theatre.jpg</fanart>
+<link>http://ignoreme</link>
+  <externallink>https://raw.githubusercontent.com/doser5/Mega-List-IPTV/master/MovieOfTheWeek</externallink>
+<info>[COLOR white]Updated 03/05/2015 @ 00.45am[/COLOR]</info>
+</channel>
+ </channels>
 
+<channel>
+      <name>[COLOR white]M[/COLOR][COLOR white]ega Hindi/Pakistan Package[/COLOR]</name>
+  <thumbnail>http://i.imgur.com/5q9bWGO.png</thumbnail>
+<fanart>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRYoEW34DzYa8pnZy2VcSSdyx-dsEPg2eCjXeDLGwsT9QtEGhrF</fanart>
+<link>http://ignoreme</link>
+  <externallink>https://raw.githubusercontent.com/doser5/Mega-List-IPTV/master/Mega%20Hindi%20Channels</externallink>
+<info>[COLOR white]Updated 03/05/2015 @ 00.45am[/COLOR]</info>
+</channel>
+ </channels>
 
-
-
-
-
-
-
+<channel>
+      <name>[COLOR white]C[/COLOR][COLOR white]onsider donating at naseera.gardezi@rbc.com to keep this project alive would mean alot.[/COLOR]</name>
+  <thumbnail>https://lh5.googleusercontent.com/-mL5zPCckEE0/VWNbuOkb-FI/AAAAAAAAAEI/rTVqKHyvwHk/s563-no/dro.g444png.png</thumbnail>
+<fanart>https://lh5.googleusercontent.com/-2HdV--lLYvM/VVPnDKuDGDI/AAAAAAAAACo/oLGLhpzQkkE/w717-h718-no/donating..jpg</fanart>
+<link>http://ignoreme</link>
+  <externallink>http://channelsiptv.herobo.com/HINDI-PAKISTAN%20CHANNELS.html</externallink>
+<info>[COLOR white]Updated 03/05/2015 @ 00.45am[/COLOR]</info>
+</channel>
+ </channels>
 
 
