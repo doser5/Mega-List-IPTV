@@ -1,38 +1,53 @@
  <fanart>http://imagizer.imageshack.us/a/img661/8098/tEIDPa.jpg</fanart>
  </item>
  
-<channels>
-
-<channel>
-      <name>[COLOR white]M[/COLOR][COLOR white]ega Sport Section[/COLOR]</name>
-  <thumbnail>http://i.imgur.com/BCy5HiV.png</thumbnail>
-<fanart>http://hdnextyear.com/wp-content/uploads/2015/02/soccer-fans-hd-desktop-wallpaper-sports-images-soccer-wallpaper.jpg</fanart>
-<link>http://ignoreme</link>
-  <externallink>https://raw.githubusercontent.com/doser5/Mega-List-IPTV/master/MegaSports.html</externallink>
-<info>[COLOR white]Updated 03/05/2015 @ 00.45am[/COLOR]</info>
-</channel>
- </channels>
- 
- <channel>
-      <name>[COLOR white]W[/COLOR][COLOR white]ill be shutting this addon down[/COLOR]</name>
-  <thumbnail></thumbnail>
-<fanart>http://hdnextyear.com/wp-content/uploads/2015/02/soccer-fans-hd-desktop-wallpaper-sports-images-soccer-wallpaper.jpg</fanart>
-<link>http://ignoreme</link>
-  <externallink></externallink>
-<info>[COLOR white]Updated 03/05/2015 @ 00.45am[/COLOR]</info>
-</channel>
- </channels>
- 
-  <channel>
-      <name>[COLOR white]T[/COLOR][COLOR white]he community does not want this addon :/[/COLOR]</name>
-  <thumbnail></thumbnail>
-<fanart>http://hdnextyear.com/wp-content/uploads/2015/02/soccer-fans-hd-desktop-wallpaper-sports-images-soccer-wallpaper.jpg</fanart>
-<link>http://ignoreme</link>
-  <externallink></externallink>
-<info>[COLOR white]Updated 03/05/2015 @ 00.45am[/COLOR]</info>
-</channel>
- </channels>
-
+<item>
+<title>[COLOR white]  OWN NETWORK(P) SD [COLOR gray](Now: Oprah Winfrey Network)[/COLOR]</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to/view/53857/OWN_-_Oprah_Winfrey_Network_%28HD%29-live-stream-channel-for-free</link>
+<regex>
+<name>path</name>
+<page>http://www.streamlive.to/view/53857/OWN_-_Oprah_Winfrey_Network_%28HD%29-live-stream-channel-for-free</page>
+<expres>file: "(.*).flv</expres>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token":"([^"]*)</expres>
+<page>$doregex[tokpg]</page>
+<referer>https://www.streamlive.to</referer>
+</regex>
+<regex>
+<name>tokpg</name>
+<expres>getJSON\("([^"]*)</expres>
+<page>http://www.streamlive.to/view/53857/OWN_-_Oprah_Winfrey_Network_%28HD%29-live-stream-channel-for-free</page>
+</regex>
+<regex>
+<name>xs</name>
+<expres>/(\?xs=.*?)"</expres>
+<page>http://www.streamlive.to/view/53857/OWN_-_Oprah_Winfrey_Network_%28HD%29-live-stream-channel-for-free</page>
+<rawpost>captcha=$doregex[answer]</rawpost>
+<referer>https://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+<ignorecache></ignorecache>
+</regex>
+<regex>
+<name>answer</name>
+<expres>$pyFunction:($doregex[captcha])</expres>
+<page></page>
+</regex>
+<regex>
+<name>captcha</name>
+<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+<page></page>
+</regex>
+<regex>
+<name>xcaptcha</name>
+<expres>Question: (.*) =</expres>
+<page>http://www.streamlive.to/view/53857/OWN_-_Oprah_Winfrey_Network_%28HD%29-live-stream-channel-for-free</page>
+<referer>http://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.dafont.com/forum/attach/orig/4/4/443960.png</thumbnail>
+</item>
 
 
 
