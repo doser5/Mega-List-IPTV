@@ -25,11 +25,11 @@
  </channels>
 
 <channel>
-      <name>[COLOR white]M[/COLOR][COLOR white]ega UK Section[/COLOR]</name>
+      <name>[COLOR white]M[/COLOR][COLOR white]test UK Section[/COLOR]</name>
   <thumbnail>http://i.imgur.com/0zm1j2f.png</thumbnail>
 <fanart>http://www.icicp.org/wp-content/uploads/2014/02/uk-flag.jpg</fanart>
 <link>http://ignoreme</link>
-  <externallink>https://raw.githubusercontent.com/doser5/Mega-List-IPTV/master/MegaUK.html</externallink>
+  <externallink>http://dtv.satocean.com/ruyaserver/livetv/get_all_livetv_channels.php</externallink>
 <info>[COLOR white]Updated 03/05/2015 @ 00.45am[/COLOR]</info>
 </channel>
  </channels>
